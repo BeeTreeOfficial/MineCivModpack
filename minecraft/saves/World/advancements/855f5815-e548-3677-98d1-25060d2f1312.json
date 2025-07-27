@@ -12,5 +12,23 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-07-27 17:34:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-07-27 17:34:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-07-27 17:34:38 +0300"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
