@@ -2941,3 +2941,522 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jul2025 19:35:11.207] [Render thread/DEBUG] [mixin/]: fabric-resource-loader-v0.client.mixins.json:FontManagerMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
 [27Jul2025 19:35:11.212] [Render thread/DEBUG] [mixin/]: Mixing features.render.gui.font.FontSetMixin from embeddium.mixins.json into net.minecraft.client.gui.font.FontSet
 [27Jul2025 19:35:11.220] [Render thread/DEBUG] [mixin/]: Mixing features.render.gui.font.GlyphRendererMixin from embeddium.mixins.json into net.minecraft.client.gui.font.glyphs.BakedGlyph
+[27Jul2025 19:35:11.290] [Render thread/DEBUG] [mixin/]: Mixing BakedModelManagerMixin from fabric-model-loading-api-v1.mixins.json into net.minecraft.client.resources.model.ModelManager
+[27Jul2025 19:35:11.290] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$loadModelPluginData$0(Ljava/util/function/BiFunction;Lnet/minecraft/util/Tuple;Ljava/util/List;)Lnet/minecraft/client/resources/model/ModelBakery; to mdcc8366$lambda$loadModelPluginData$0$0 in fabric-model-loading-api-v1.mixins.json:BakedModelManagerMixin
+[27Jul2025 19:35:11.291] [Render thread/DEBUG] [mixin/]: Mixing KeyedResourceReloadListenerClientMixin from fabric-resource-loader-v0.client.mixins.json into net.minecraft.client.resources.model.ModelManager
+[27Jul2025 19:35:11.291] [Render thread/DEBUG] [mixin/]: fabric-resource-loader-v0.client.mixins.json:KeyedResourceReloadListenerClientMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:11.305] [Render thread/DEBUG] [mixin/]: Mixing MixinSpriteIdentifier from entity_texture_features-common.mixins.json into net.minecraft.client.resources.model.Material
+[27Jul2025 19:35:11.321] [Render thread/DEBUG] [mixin/]: Mixing EntityDistanceCullingMixin$TileDispatcherMixin from chloride.mixin.json into net.minecraft.client.renderer.blockentity.BlockEntityRenderDispatcher
+[27Jul2025 19:35:11.322] [Render thread/DEBUG] [mixin/]: Mixing FastBlocksMixins$TileRenderMixin from chloride.mixin.json into net.minecraft.client.renderer.blockentity.BlockEntityRenderDispatcher
+[27Jul2025 19:35:11.323] [Render thread/DEBUG] [mixin/]: Mixing entity.misc.MixinBlockEntityRenderDispatcher from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.blockentity.BlockEntityRenderDispatcher
+[27Jul2025 19:35:11.323] [Render thread/DEBUG] [mixin/]: Mixing BlockEntityRenderDispatcherMixin from entityculling.mixins.json into net.minecraft.client.renderer.blockentity.BlockEntityRenderDispatcher
+[27Jul2025 19:35:11.323] [Render thread/DEBUG] [mixin/]: entityculling.mixins.json:BlockEntityRenderDispatcherMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:11.334] [Render thread/DEBUG] [mixin/]: Mixing KeyedResourceReloadListenerClientMixin from fabric-resource-loader-v0.client.mixins.json into net.minecraft.client.renderer.block.BlockRenderDispatcher
+[27Jul2025 19:35:11.335] [Render thread/DEBUG] [mixin/]: fabric-resource-loader-v0.client.mixins.json:KeyedResourceReloadListenerClientMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:11.341] [Render thread/DEBUG] [mixin/]: Mixing EntityDistanceCullingMixin$EntityDispatcherMixin from chloride.mixin.json into net.minecraft.client.renderer.entity.EntityRenderDispatcher
+[27Jul2025 19:35:11.345] [Render thread/DEBUG] [mixin/]: Mixing entity.misc.MixinEntityRenderDispatcher from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.entity.EntityRenderDispatcher
+[27Jul2025 19:35:11.346] [Render thread/DEBUG] [mixin/]: Mixing features.render.entity.shadows.EntityRenderDispatcherMixin from embeddium.mixins.json into net.minecraft.client.renderer.entity.EntityRenderDispatcher
+[27Jul2025 19:35:11.368] [Render thread/DEBUG] [mixin/]: Mixing modcompat.fabric_renderer_indigo.ItemRenderContextMixin from embeddium.mixins.json into net.fabricmc.fabric.impl.client.indigo.renderer.render.ItemRenderContext
+[27Jul2025 19:35:11.398] [Render thread/DEBUG] [mixin/]: Mixing client.BakedModelMixin from fabric-renderer-api-v1.mixins.json into net.minecraft.client.resources.model.BakedModel
+[27Jul2025 19:35:11.398] [Render thread/DEBUG] [mixin/]: fabric-renderer-api-v1.mixins.json:client.BakedModelMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:11.398] [Render thread/DEBUG] [mixin/]: Mixing BakedModelMixin from fabric-renderer-indigo.mixins.json into net.minecraft.client.resources.model.BakedModel
+[27Jul2025 19:35:11.398] [Render thread/DEBUG] [mixin/]: fabric-renderer-indigo.mixins.json:BakedModelMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:11.399] [Render thread/DEBUG] [mixin/]: Mixing core.model.BakedModelMixin from embeddium.mixins.json into net.minecraft.client.resources.model.BakedModel
+[27Jul2025 19:35:11.403] [Render thread/DEBUG] [mixin/]: Mixing core.model.quad.BakedQuadFactoryMixin from embeddium.mixins.json into net.minecraft.client.renderer.block.model.FaceBakery
+[27Jul2025 19:35:11.408] [Render thread/DEBUG] [mixin/]: Mixing features.model.BlockElementMixin from embeddium.mixins.json into net.minecraft.client.renderer.block.model.BlockElement
+[27Jul2025 19:35:11.418] [Render thread/DEBUG] [mixin/]: Mixing perf.model_optimizations.TransformationMatrixMixin from modernfix-common.mixins.json into com.mojang.math.Transformation
+[27Jul2025 19:35:11.425] [Render thread/DEBUG] [mixin/]: Mixing ItemModelGeneratorMixin from spartanweaponry.mixins.json into net.minecraft.client.renderer.block.model.ItemModelGenerator
+[27Jul2025 19:35:11.434] [Render thread/DEBUG] [mixin/]: Mixing MixinVertexConsumerProvider$Immediate from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.MultiBufferSource$BufferSource
+[27Jul2025 19:35:11.435] [Render thread/DEBUG] [mixin/]: Mixing features.render.immediate.buffer_builder.fast_delegate.BufferSourceMixin from embeddium.mixins.json into net.minecraft.client.renderer.MultiBufferSource$BufferSource
+[27Jul2025 19:35:11.442] [Render thread/DEBUG] [mixin/]: Mixing BlockModelRendererMixin from fabric-renderer-indigo.mixins.json into net.minecraft.client.renderer.block.ModelBlockRenderer
+[27Jul2025 19:35:11.442] [Render thread/DEBUG] [mixin/]: fabric-renderer-indigo.mixins.json:BlockModelRendererMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:11.444] [Render thread/DEBUG] [mixin/]: Mixing features.textures.animations.tracking.BlockModelRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.block.ModelBlockRenderer
+[27Jul2025 19:35:11.444] [Render thread/DEBUG] [mixin/]: Mixing features.render.model.block.BlockModelRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.block.ModelBlockRenderer
+[27Jul2025 19:35:11.468] [Render thread/DEBUG] [mixin/]: Mixing FluidRendererMixin from fabric-rendering-fluids-v1.mixins.json into net.minecraft.client.renderer.block.LiquidBlockRenderer
+[27Jul2025 19:35:11.469] [Render thread/DEBUG] [mixin/]: fabric-rendering-fluids-v1.mixins.json:FluidRendererMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:11.469] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$new$0()Ljava/lang/Boolean; to mdcc8366$lambda$new$0$0 in fabric-rendering-fluids-v1.mixins.json:FluidRendererMixin
+[27Jul2025 19:35:11.484] [Render thread/DEBUG] [mixin/]: Mixing ItemInHandRendererMixin from notenoughanimations.mixins.json into net.minecraft.client.renderer.ItemInHandRenderer
+[27Jul2025 19:35:11.484] [Render thread/DEBUG] [mixin/]: notenoughanimations.mixins.json:ItemInHandRendererMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27Jul2025 19:35:11.492] [Render thread/DEBUG] [mixin/]: Mixing darkness.LightTextureMixin from chloride.mixin.json into net.minecraft.client.renderer.LightTexture
+[27Jul2025 19:35:11.511] [Render thread/DEBUG] [mixin/]: Mixing features.render.immediate.buffer_builder.VertexBufferMixin from embeddium.mixins.json into com.mojang.blaze3d.vertex.VertexBuffer
+[27Jul2025 19:35:11.523] [Render thread/ERROR] [Embeddium-MixinTaintDetector/]: Mod mixin into Embeddium internals detected. This instance is now tainted. The Embeddium team does not provide any guarantee of support for issues encountered while such mods are installed.
+[27Jul2025 19:35:11.523] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [entity_texture_features] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.vertex.buffer.SodiumBufferBuilder, which may cause instability.
+[27Jul2025 19:35:11.523] [Render thread/DEBUG] [mixin/]: Mixing mods.sodium.MixinSodiumBufferBuilder from entity_texture_features-common.mixins.json into me.jellysquid.mods.sodium.client.render.vertex.buffer.SodiumBufferBuilder
+[27Jul2025 19:35:11.523] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$etf$initETFVertexConsumer$0(Lnet/minecraft/resources/ResourceLocation;)V to mdcc8366$lambda$etf$initETFVertexConsumer$0$0 in entity_texture_features-common.mixins.json:mods.sodium.MixinSodiumBufferBuilder
+[27Jul2025 19:35:11.581] [Render thread/DEBUG] [mixin/]: Mixing features.textures.animations.tracking.SpriteBillboardParticleMixin from embeddium.mixins.json into net.minecraft.client.particle.TextureSheetParticle
+[27Jul2025 19:35:11.585] [Render thread/DEBUG] [mixin/]: Mixing features.render.particle.BillboardParticleMixin from embeddium.mixins.json into net.minecraft.client.particle.SingleQuadParticle
+[27Jul2025 19:35:11.610] [Render thread/DEBUG] [mixin/]: Mixing ParticleManagerAccessor$SimpleSpriteProviderAccessor from fabric-particles-v1.client.mixins.json into net.minecraft.client.particle.ParticleEngine$MutableSpriteSet
+[27Jul2025 19:35:11.610] [Render thread/DEBUG] [mixin/]: fabric-particles-v1.client.mixins.json:ParticleManagerAccessor$SimpleSpriteProviderAccessor: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:11.701] [Render thread/DEBUG] [mixin/]: Mixing perf.thread_priorities.IntegratedServerMixin from modernfix-common.mixins.json into net.minecraft.client.server.IntegratedServer
+[27Jul2025 19:35:11.708] [Render thread/DEBUG] [mixin/]: Mixing DebugHudMixin from fabric-renderer-api-v1.debughud.mixins.json into net.minecraft.client.gui.components.DebugScreenOverlay
+[27Jul2025 19:35:11.709] [Render thread/DEBUG] [mixin/]: fabric-renderer-api-v1.debughud.mixins.json:DebugHudMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:11.711] [Render thread/DEBUG] [mixin/]: Mixing DebugHudMixin from entityculling.mixins.json into net.minecraft.client.gui.components.DebugScreenOverlay
+[27Jul2025 19:35:11.711] [Render thread/DEBUG] [mixin/]: entityculling.mixins.json:DebugHudMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:11.717] [Render thread/DEBUG] [mixin/]: Mixing features.render.gui.debug.DebugScreenOverlayAccessor from embeddium.mixins.json into net.minecraft.client.gui.components.DebugScreenOverlay
+[27Jul2025 19:35:11.717] [Render thread/DEBUG] [mixin/]: Mixing features.gui.hooks.debug.DebugHudMixin from embeddium.mixins.json into net.minecraft.client.gui.components.DebugScreenOverlay
+[27Jul2025 19:35:11.755] [Render thread/DEBUG] [mixin/]: Mixing DebugRendererMixin from sound_physics_remastered.mixins.json into net.minecraft.client.renderer.debug.DebugRenderer
+[27Jul2025 19:35:11.806] [Render thread/INFO] [Spartan Shields/]: Registering Model Layers!
+[27Jul2025 19:35:11.810] [Render thread/INFO] [Spartan Shields/]: Model Layer registration complete!
+[27Jul2025 19:35:11.810] [Render thread/INFO] [Spartan Weaponry/]: Registering Model Layers!
+[27Jul2025 19:35:11.820] [Render thread/INFO] [Spartan Weaponry/]: Model Layer registration complete!
+[27Jul2025 19:35:11.834] [Render thread/INFO] [Spartan Weaponry/]: Registering Entity Renderers!
+[27Jul2025 19:35:11.837] [Render thread/DEBUG] [mixin/]: Mixing EntityRenderersMixin from fabric-rendering-v1.mixins.json into net.minecraft.client.renderer.entity.EntityRenderers
+[27Jul2025 19:35:11.837] [Render thread/DEBUG] [mixin/]: fabric-rendering-v1.mixins.json:EntityRenderersMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:11.848] [Render thread/DEBUG] [mixin/]: Mixing safety.LivingEntityRendererMixin from modernfix-common.mixins.json into net.minecraft.client.renderer.entity.LivingEntityRenderer
+[27Jul2025 19:35:11.848] [Render thread/DEBUG] [mixin/]: Mixing bugfix.entity_pose_stack.LivingEntityRendererMixin from modernfix-forge.mixins.json into net.minecraft.client.renderer.entity.LivingEntityRenderer
+[27Jul2025 19:35:11.849] [Render thread/DEBUG] [mixin/]: Mixing entity.renderer.MixinLivingEntityRenderer from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.entity.LivingEntityRenderer
+[27Jul2025 19:35:11.850] [Render thread/DEBUG] [mixin/]: Mixing LivingEntityRendererMixin from notenoughanimations.mixins.json into net.minecraft.client.renderer.entity.LivingEntityRenderer
+[27Jul2025 19:35:11.850] [Render thread/DEBUG] [mixin/]: notenoughanimations.mixins.json:LivingEntityRendererMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27Jul2025 19:35:11.864] [Render thread/DEBUG] [mixin/]: Mixing bugfix.entity_pose_stack.PlayerRendererMixin from modernfix-forge.mixins.json into net.minecraft.client.renderer.entity.player.PlayerRenderer
+[27Jul2025 19:35:11.865] [Render thread/DEBUG] [mixin/]: Mixing entity.renderer.MixinPlayerEntityRenderer from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.entity.player.PlayerRenderer
+[27Jul2025 19:35:11.869] [Render thread/DEBUG] [mixin/]: Mixing PlayerRendererMixin from notenoughanimations.mixins.json into net.minecraft.client.renderer.entity.player.PlayerRenderer
+[27Jul2025 19:35:11.869] [Render thread/DEBUG] [mixin/]: notenoughanimations.mixins.json:PlayerRendererMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27Jul2025 19:35:11.883] [Render thread/DEBUG] [mixin/]: Mixing features.render.entity.remove_streams.HierarchicalModelMixin from embeddium.mixins.json into net.minecraft.client.model.HierarchicalModel
+[27Jul2025 19:35:11.886] [Render thread/DEBUG] [mixin/]: Mixing ItemInHandLayerMixin from notenoughanimations.mixins.json into net.minecraft.client.renderer.entity.layers.ItemInHandLayer
+[27Jul2025 19:35:11.886] [Render thread/DEBUG] [mixin/]: notenoughanimations.mixins.json:ItemInHandLayerMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27Jul2025 19:35:11.888] [Render thread/DEBUG] [mixin/]: Mixing MixinSoulLampRendering$HeldItem from cold_sweat.mixin.json into net.minecraft.client.renderer.entity.layers.ItemInHandLayer
+[27Jul2025 19:35:11.897] [Render thread/DEBUG] [mixin/]: Mixing entity.renderer.feature.MixinElytraFeatureRenderer from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.entity.layers.ElytraLayer
+[27Jul2025 19:35:11.918] [Render thread/DEBUG] [mixin/]: Mixing entity.renderer.feature.MixinEyeFeatureRenderer from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.entity.layers.EyesLayer
+[27Jul2025 19:35:11.945] [Render thread/DEBUG] [mixin/]: Mixing bugfix.ender_dragon_leak.EnderDragonRendererMixin from modernfix-common.mixins.json into net.minecraft.client.renderer.entity.EnderDragonRenderer
+[27Jul2025 19:35:11.946] [Render thread/DEBUG] [mixin/]: Mixing entity.renderer.MixinEnderDragonEntityRenderer from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.entity.EnderDragonRenderer
+[27Jul2025 19:35:11.972] [Render thread/DEBUG] [mixin/]: Mixing MixinGoatRenderer from cold_sweat.mixin.json into net.minecraft.client.renderer.entity.GoatRenderer
+[27Jul2025 19:35:11.988] [Render thread/DEBUG] [mixin/]: Mixing entity.renderer.MixinIllusionerRenderer from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.entity.IllusionerRenderer
+[27Jul2025 19:35:12.005] [Render thread/DEBUG] [mixin/]: Mixing entity.renderer.feature.MixinMooshroomMushroomFeatureRenderer from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.entity.layers.MushroomCowMushroomLayer
+[27Jul2025 19:35:12.034] [Render thread/DEBUG] [mixin/]: Mixing entity.renderer.MixinPaintingEntityRenderer from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.entity.PaintingRenderer
+[27Jul2025 19:35:12.122] [Render thread/DEBUG] [mixin/]: Mixing entity.renderer.feature.MixinWardenExtraTextureParts from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.entity.layers.WardenEmissiveLayer
+[27Jul2025 19:35:12.142] [Render thread/DEBUG] [mixin/]: Mixing entity.block.MixinSkullBlockEntityRenderer from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.blockentity.SkullBlockRenderer
+[27Jul2025 19:35:12.184] [Render thread/DEBUG] [mixin/]: Mixing ClientTooltipComponentManagerMixin from fabric-rendering-v1.mixins.json into net.minecraftforge.client.gui.ClientTooltipComponentManager
+[27Jul2025 19:35:12.184] [Render thread/DEBUG] [mixin/]: fabric-rendering-v1.mixins.json:ClientTooltipComponentManagerMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:12.215] [Render thread/DEBUG] [mixin/]: Mixing features.options.overlays.VanillaGuiOverlayMixin from embeddium.mixins.json into net.minecraftforge.client.gui.overlay.VanillaGuiOverlay
+[27Jul2025 19:35:12.272] [Render thread/DEBUG] [mixin/]: Mixing DimensionEffectsAccessor from fabric-rendering-v1.mixins.json into net.minecraft.client.renderer.DimensionSpecialEffects
+[27Jul2025 19:35:12.272] [Render thread/DEBUG] [mixin/]: fabric-rendering-v1.mixins.json:DimensionEffectsAccessor: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:12.272] [Render thread/DEBUG] [mixin/]: Renaming @Accessor method getIdentifierMap()Lit/unimi/dsi/fastutil/objects/Object2ObjectMap; to getIdentifierMap_$md$cc8366$0 in fabric-rendering-v1.mixins.json:DimensionEffectsAccessor
+[27Jul2025 19:35:12.272] [Render thread/DEBUG] [mixin/]: Mixing CloudHeightMixin from chloride.mixin.json into net.minecraft.client.renderer.DimensionSpecialEffects
+[27Jul2025 19:35:12.273] [Render thread/DEBUG] [mixin/]: Mixing darkness.DimensionEffectsMixin from chloride.mixin.json into net.minecraft.client.renderer.DimensionSpecialEffects
+[27Jul2025 19:35:12.279] [Render thread/DEBUG] [mixin/]: Mixing darkness.DimensionEffectsMixin$NetherMixin from chloride.mixin.json into net.minecraft.client.renderer.DimensionSpecialEffects$NetherEffects
+[27Jul2025 19:35:12.282] [Render thread/DEBUG] [mixin/]: Mixing darkness.DimensionEffectsMixin$EndMixin from chloride.mixin.json into net.minecraft.client.renderer.DimensionSpecialEffects$EndEffects
+[27Jul2025 19:35:12.295] [Render thread/DEBUG] [mixin/]: Mixing perf.dedicated_reload_executor.CreateWorldScreenMixin from modernfix-common.mixins.json into net.minecraft.client.gui.screens.worldselection.CreateWorldScreen
+[27Jul2025 19:35:12.296] [Render thread/DEBUG] [mixin/]: Mixing bugfix.extra_experimental_screen.CreateWorldScreenMixin from modernfix-forge.mixins.json into net.minecraft.client.gui.screens.worldselection.CreateWorldScreen
+[27Jul2025 19:35:12.314] [Render thread/DEBUG] [mixin/]: Mixing shader.ShaderProgramMixin$ShaderProgramGlslProcessorMixin from fabric-rendering-v1.mixins.json into net.minecraft.client.renderer.ShaderInstance$1
+[27Jul2025 19:35:12.315] [Render thread/DEBUG] [mixin/]: fabric-rendering-v1.mixins.json:shader.ShaderProgramMixin$ShaderProgramGlslProcessorMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:12.525] [Render thread/DEBUG] [mixin/]: Mixing feature.remove_telemetry.ClientTelemetryManagerMixin from modernfix-common.mixins.json into net.minecraft.client.telemetry.ClientTelemetryManager
+[27Jul2025 19:35:12.562] [Render thread/DEBUG] [mixin/]: Mixing MessageHandlerMixin from fabric-message-api-v1.client.mixins.json into net.minecraft.client.multiplayer.chat.ChatListener
+[27Jul2025 19:35:12.611] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: mod_resources, vanilla, fabric
+[27Jul2025 19:35:12.617] [Render thread/DEBUG] [mixin/]: Mixing NamespaceResourceManagerMixin from fabric-resource-loader-v0.mixins.json into net.minecraft.server.packs.resources.FallbackResourceManager
+[27Jul2025 19:35:12.618] [Render thread/DEBUG] [mixin/]: fabric-resource-loader-v0.mixins.json:NamespaceResourceManagerMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:12.631] [Render thread/DEBUG] [mixin/]: Mixing SimpleResourceReloadMixin from fabric-resource-loader-v0.mixins.json into net.minecraft.server.packs.resources.SimpleReloadInstance
+[27Jul2025 19:35:12.632] [Render thread/DEBUG] [mixin/]: fabric-resource-loader-v0.mixins.json:SimpleResourceReloadMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:12.634] [Render thread/DEBUG] [mixin/]: Mixing feature.measure_time.SimpleReloadInstanceMixin from modernfix-common.mixins.json into net.minecraft.server.packs.resources.SimpleReloadInstance
+[27Jul2025 19:35:12.648] [Render thread/DEBUG] [mixin/]: Mixing AccessOptionsSubScreen from controlling.mixins.json into net.minecraft.client.gui.screens.OptionsSubScreen
+[27Jul2025 19:35:12.649] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[27Jul2025 19:35:12.650] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\forge-client.toml
+[27Jul2025 19:35:12.650] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\forge-client.toml
+[27Jul2025 19:35:12.652] [Render thread/DEBUG] [mixin/]: Mixing QuickLanguageReloadMixin from chloride.mixin.json into net.minecraft.client.gui.screens.LanguageSelectScreen
+[27Jul2025 19:35:12.655] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\forge-client.toml for changes
+[27Jul2025 19:35:12.656] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[27Jul2025 19:35:12.657] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\client.toml
+[27Jul2025 19:35:12.658] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\client.toml
+[27Jul2025 19:35:12.659] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\client.toml for changes
+[27Jul2025 19:35:12.661] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\appleskin-client.toml
+[27Jul2025 19:35:12.662] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\appleskin-client.toml
+[27Jul2025 19:35:12.662] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\appleskin-client.toml for changes
+[27Jul2025 19:35:12.663] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\pmmo-client.toml
+[27Jul2025 19:35:12.665] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\pmmo-client.toml
+[27Jul2025 19:35:12.665] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\pmmo-client.toml for changes
+[27Jul2025 19:35:12.670] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\spartanweaponry-client.toml
+[27Jul2025 19:35:12.670] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\spartanweaponry-client.toml
+[27Jul2025 19:35:12.671] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\spartanweaponry-client.toml for changes
+[27Jul2025 19:35:12.673] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\client.toml
+[27Jul2025 19:35:12.674] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\client.toml
+[27Jul2025 19:35:12.689] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 3.483 ms
+[27Jul2025 19:35:12.689] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 196.5 μs
+[27Jul2025 19:35:12.690] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 143.7 μs
+[27Jul2025 19:35:12.690] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 157.0 μs
+[27Jul2025 19:35:12.690] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 128.2 μs
+[27Jul2025 19:35:12.696] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 6.113 ms
+[27Jul2025 19:35:12.697] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 176.5 μs
+[27Jul2025 19:35:12.697] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 137.0 μs
+[27Jul2025 19:35:12.697] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 135.8 μs
+[27Jul2025 19:35:12.699] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 1.698 ms
+[27Jul2025 19:35:12.703] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\client.toml for changes
+[27Jul2025 19:35:12.710] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[27Jul2025 19:35:12.710] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\spartanshields-common.toml
+[27Jul2025 19:35:12.712] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\spartanshields-common.toml
+[27Jul2025 19:35:12.716] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 16.91 ms
+[27Jul2025 19:35:12.717] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 165.3 μs
+[27Jul2025 19:35:12.717] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 420.8 μs
+[27Jul2025 19:35:12.718] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 122.5 μs
+[27Jul2025 19:35:12.718] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\spartanshields-common.toml for changes
+[27Jul2025 19:35:12.719] [modloading-worker-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[27Jul2025 19:35:12.719] [modloading-worker-0/DEBUG] [Spartan Shields/]: Reloading durability values for Shields!
+[27Jul2025 19:35:12.723] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\item_settings.toml
+[27Jul2025 19:35:12.725] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\item_settings.toml
+[27Jul2025 19:35:12.728] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 10.30 ms
+[27Jul2025 19:35:12.730] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 1.235 ms
+[27Jul2025 19:35:12.730] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 328.6 μs
+[27Jul2025 19:35:12.730] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 124.4 μs
+[27Jul2025 19:35:12.731] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 108.7 μs
+[27Jul2025 19:35:12.731] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 101.5 μs
+[27Jul2025 19:35:12.731] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 102.3 μs
+[27Jul2025 19:35:12.731] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 117.5 μs
+[27Jul2025 19:35:12.731] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 30.80 μs
+[27Jul2025 19:35:12.735] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 3.256 ms
+[27Jul2025 19:35:12.737] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\item_settings.toml for changes
+[27Jul2025 19:35:12.740] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\common.toml
+[27Jul2025 19:35:12.740] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 5.314 ms
+[27Jul2025 19:35:12.741] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 156.8 μs
+[27Jul2025 19:35:12.741] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 114.8 μs
+[27Jul2025 19:35:12.742] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\common.toml
+[27Jul2025 19:35:12.743] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\common.toml for changes
+[27Jul2025 19:35:12.745] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\keyword.toml
+[27Jul2025 19:35:12.747] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\keyword.toml
+[27Jul2025 19:35:12.747] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\keyword.toml for changes
+[27Jul2025 19:35:12.749] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\modernfix-common.toml
+[27Jul2025 19:35:12.750] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\modernfix-common.toml
+[27Jul2025 19:35:12.751] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\modernfix-common.toml for changes
+[27Jul2025 19:35:12.752] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\container.toml
+[27Jul2025 19:35:12.752] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\container.toml
+[27Jul2025 19:35:12.753] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\thirst\container.toml for changes
+[27Jul2025 19:35:12.753] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\pmmo-common.toml
+[27Jul2025 19:35:12.754] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\pmmo-common.toml
+[27Jul2025 19:35:12.754] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\pmmo-common.toml for changes
+[27Jul2025 19:35:12.757] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\spartanweaponry-common.toml
+[27Jul2025 19:35:12.764] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 22.29 ms
+[27Jul2025 19:35:12.764] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\spartanweaponry-common.toml
+[27Jul2025 19:35:12.764] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\spartanweaponry-common.toml for changes
+[27Jul2025 19:35:12.764] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 262.9 μs
+[27Jul2025 19:35:12.764] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 114.0 μs
+[27Jul2025 19:35:12.766] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Range value 0.0 is not within its bounds 1.0-50.0
+[27Jul2025 19:35:12.766] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 1.257 ms
+[27Jul2025 19:35:12.766] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\spartanweaponry-common.toml is not correct. Correcting
+[27Jul2025 19:35:12.766] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 243.3 μs
+[27Jul2025 19:35:12.767] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 117.1 μs
+[27Jul2025 19:35:12.767] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 594.8 μs
+[27Jul2025 19:35:12.768] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 106.4 μs
+[27Jul2025 19:35:12.768] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 90.80 μs
+[27Jul2025 19:35:12.768] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 26.70 μs
+[27Jul2025 19:35:12.768] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Range value 0.0 is not within its bounds 1.0-50.0
+[27Jul2025 19:35:12.768] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 112.2 μs
+[27Jul2025 19:35:12.768] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.max_armor_value was corrected from 0.0 to its default, 1.0. 
+[27Jul2025 19:35:12.769] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 320.3 μs
+[27Jul2025 19:35:12.769] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 38.00 μs
+[27Jul2025 19:35:12.769] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 166.5 μs
+[27Jul2025 19:35:12.769] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 137.8 μs
+[27Jul2025 19:35:12.771] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 1.421 ms
+[27Jul2025 19:35:12.783] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 12.18 ms
+[27Jul2025 19:35:12.784] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 629.8 μs
+[27Jul2025 19:35:12.785] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 600.8 μs
+[27Jul2025 19:35:12.787] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 1.580 ms
+[27Jul2025 19:35:12.787] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 40.80 μs
+[27Jul2025 19:35:12.791] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 3.405 ms
+[27Jul2025 19:35:12.791] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 213.7 μs
+[27Jul2025 19:35:12.791] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 98.40 μs
+[27Jul2025 19:35:12.792] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 419.5 μs
+[27Jul2025 19:35:12.798] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\main.toml
+[27Jul2025 19:35:12.799] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\main.toml
+[27Jul2025 19:35:12.799] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\main.toml for changes
+[27Jul2025 19:35:12.802] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\world.toml
+[27Jul2025 19:35:12.805] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\world.toml
+[27Jul2025 19:35:12.805] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\world.toml for changes
+[27Jul2025 19:35:12.814] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\item.toml
+[27Jul2025 19:35:12.817] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\item.toml
+[27Jul2025 19:35:12.817] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\item.toml for changes
+[27Jul2025 19:35:12.823] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\entity.toml
+[27Jul2025 19:35:12.825] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\entity.toml
+[27Jul2025 19:35:12.826] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft\config\coldsweat\entity.toml for changes
+[27Jul2025 19:35:12.839] [Worker-ResourceReload-1/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[27Jul2025 19:35:12.845] [Worker-ResourceReload-1/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[27Jul2025 19:35:12.866] [Worker-ResourceReload-0/DEBUG] [ModernFix/]: Cleared 830 object holder stacktrace references
+[27Jul2025 19:35:12.899] [Worker-ResourceReload-1/INFO] [harmonised.pmmo.util.MsLoggy/]: Messages Registered
+[27Jul2025 19:35:12.912] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 118.9 ms
+[27Jul2025 19:35:12.933] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 20.85 ms
+[27Jul2025 19:35:12.933] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 317.2 μs
+[27Jul2025 19:35:12.934] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 114.5 μs
+[27Jul2025 19:35:12.933] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[27Jul2025 19:35:12.934] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 30.00 μs
+[27Jul2025 19:35:12.935] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 621.9 μs
+[27Jul2025 19:35:12.935] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 196.7 μs
+[27Jul2025 19:35:12.935] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 61.20 μs
+[27Jul2025 19:35:12.958] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 22.54 ms
+[27Jul2025 19:35:12.961] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 1.960 ms
+[27Jul2025 19:35:12.962] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 272.9 μs
+[27Jul2025 19:35:12.963] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 300.5 μs
+[27Jul2025 19:35:12.963] [Worker-ResourceReload-5/DEBUG] [ModernFix/]: Generated cache for /assets in 134.6 μs
+[27Jul2025 19:35:12.963] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 105.0 μs
+[27Jul2025 19:35:12.964] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 121.8 μs
+[27Jul2025 19:35:12.964] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 139.1 μs
+[27Jul2025 19:35:12.964] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 112.0 μs
+[27Jul2025 19:35:12.965] [Render thread/DEBUG] [ModernFix/]: Generated cache for /assets in 167.2 μs
+[27Jul2025 19:35:12.996] [Render thread/DEBUG] [mixin/]: Mixing SimpleBakedModelMixin from ferritecore.modelsides.mixin.json into net.minecraft.client.resources.model.SimpleBakedModel
+[27Jul2025 19:35:12.997] [Render thread/DEBUG] [mixin/]: Mixing features.model.SimpleBakedModelAccessor from embeddium.mixins.json into net.minecraft.client.resources.model.SimpleBakedModel
+[27Jul2025 19:35:13.007] [Render thread/DEBUG] [mixin/]: Mixing ChunkRenderTypeSetMixin from fabric-blockrenderlayer-v1.mixins.json into net.minecraftforge.client.ChunkRenderTypeSet
+[27Jul2025 19:35:13.008] [Render thread/DEBUG] [mixin/]: Mixing features.render.model.ChunkRenderTypeSetMixin from embeddium.mixins.json into net.minecraftforge.client.ChunkRenderTypeSet
+[27Jul2025 19:35:13.009] [Render thread/DEBUG] [mixin/]: Renaming @Invoker method embeddium$construct(Ljava/util/BitSet;)Lnet/minecraftforge/client/ChunkRenderTypeSet; to embeddium$construct_$md$cc8366$0 in embeddium.mixins.json:features.render.model.ChunkRenderTypeSetMixin
+[27Jul2025 19:35:13.009] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$static$0([Lnet/minecraftforge/client/ChunkRenderTypeSet;)V to mdcc8366$lambda$static$0$1 in embeddium.mixins.json:features.render.model.ChunkRenderTypeSetMixin
+[27Jul2025 19:35:13.040] [Render thread/DEBUG] [mixin/]: Mixing features.textures.mipmaps.SpriteContentsMixin from embeddium.mixins.json into net.minecraft.client.renderer.texture.SpriteContents
+[27Jul2025 19:35:13.050] [Render thread/DEBUG] [mixin/]: Mixing features.textures.animations.upload.SpriteContentsAccessor from embeddium.mixins.json into net.minecraft.client.renderer.texture.SpriteContents
+[27Jul2025 19:35:13.050] [Render thread/DEBUG] [mixin/]: Mixing features.textures.animations.tracking.SpriteContentsMixin from embeddium.mixins.json into net.minecraft.client.renderer.texture.SpriteContents
+[27Jul2025 19:35:13.051] [Render thread/DEBUG] [mixin/]: Mixing features.textures.SpriteContentsInvoker from embeddium.mixins.json into net.minecraft.client.renderer.texture.SpriteContents
+[27Jul2025 19:35:13.072] [Render thread/DEBUG] [mixin/]: Mixing features.textures.animations.tracking.SpriteContentsAnimationFrameAccessor from embeddium.mixins.json into net.minecraft.client.renderer.texture.SpriteContents$FrameInfo
+[27Jul2025 19:35:13.072] [Render thread/DEBUG] [mixin/]: Mixing features.textures.animations.upload.SpriteContentsAnimationFrameAccessor from embeddium.mixins.json into net.minecraft.client.renderer.texture.SpriteContents$FrameInfo
+[27Jul2025 19:35:13.073] [Render thread/DEBUG] [mixin/]: Unexpected: Registered method getTime()I in net.minecraft.client.renderer.texture.SpriteContents$FrameInfo was not merged
+[27Jul2025 19:35:13.144] [Worker-ResourceReload-0/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[27Jul2025 19:35:13.214] [Render thread/DEBUG] [mixin/]: Mixing FogAndBandMixin from chloride.mixin.json into net.minecraft.client.renderer.FogRenderer
+[27Jul2025 19:35:13.218] [Render thread/DEBUG] [mixin/]: Mixing features.render.world.sky.BackgroundRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.FogRenderer
+[27Jul2025 19:35:13.219] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$redirectSampleColor$1(Lnet/minecraft/client/multiplayer/ClientLevel;FLnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3; to mdcc8366$lambda$redirectSampleColor$1$0 in embeddium.mixins.json:features.render.world.sky.BackgroundRendererMixin
+[27Jul2025 19:35:13.219] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$redirectSampleColor$0(Lnet/minecraft/client/multiplayer/ClientLevel;III)I to mdcc8366$lambda$redirectSampleColor$0$1 in embeddium.mixins.json:features.render.world.sky.BackgroundRendererMixin
+[27Jul2025 19:35:13.254] [Worker-ResourceReload-0/DEBUG] [mixin/]: Mixing perf.compress_unihex_font.UnihexProviderShortContentsMixin from modernfix-common.mixins.json into net.minecraft.client.gui.font.providers.UnihexProvider$ShortContents
+[27Jul2025 19:35:13.288] [Worker-ResourceReload-0/DEBUG] [mixin/]: Mixing perf.compress_unihex_font.UnihexProviderByteContentsMixin from modernfix-common.mixins.json into net.minecraft.client.gui.font.providers.UnihexProvider$ByteContents
+[27Jul2025 19:35:13.581] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing perf.faster_texture_stitching.StitcherMixin from modernfix-common.mixins.json into net.minecraft.client.renderer.texture.Stitcher
+[27Jul2025 19:35:13.582] [Worker-ResourceReload-6/DEBUG] [mixin/]: Renaming synthetic method lambda$stitchFast$0(Lnet/minecraft/client/renderer/texture/Stitcher$Holder;)Lnet/minecraft/client/renderer/texture/Stitcher$Entry; to mdcc8366$lambda$stitchFast$0$0 in modernfix-common.mixins.json:perf.faster_texture_stitching.StitcherMixin
+[27Jul2025 19:35:13.660] [Worker-ResourceReload-5/DEBUG] [mixin/]: Mixing features.textures.mipmaps.MipmapHelperMixin from embeddium.mixins.json into net.minecraft.client.renderer.texture.MipmapGenerator
+[27Jul2025 19:35:13.689] [Worker-ResourceReload-1/DEBUG] [mixin/]: Mixing features.textures.animations.tracking.SpriteContentsAnimationAccessor from embeddium.mixins.json into net.minecraft.client.renderer.texture.SpriteContents$AnimatedTexture
+[27Jul2025 19:35:13.690] [Worker-ResourceReload-1/DEBUG] [mixin/]: Mixing features.textures.animations.upload.SpriteContentsAnimationAccessor from embeddium.mixins.json into net.minecraft.client.renderer.texture.SpriteContents$AnimatedTexture
+[27Jul2025 19:35:13.691] [Worker-ResourceReload-1/DEBUG] [mixin/]: Unexpected: Registered method getFrames()Ljava/util/List; in net.minecraft.client.renderer.texture.SpriteContents$AnimatedTexture was not merged
+[27Jul2025 19:35:13.835] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Received version check data:
+{"1.20.2":{"1.20.2-1.3.1":"Updated dependencies\nFixed mod icon size","1.20.2-1.3.0":""},"1.21.1":{"1.21.1-1.4.15":"Fixed logger crash if config is not initialized yet"},"1.20.1":{"1.20.1-1.4.15":"Fixed logger crash if config is not initialized yet","1.20.1-1.3.0":""},"1.21":{"1.21-1.4.6":""},"1.20":{"1.20-1.1.1":"Updated to 1.20"},"1.18":{"1.18-1.0.3":"Tweaked config values"},"1.19":{"1.19-1.0.15":"Disabled moving sounds by default due to performance impact"},"1.18.2":{"1.18.2-1.0.6":"Fixed crash when playing sounds that are null"},"1.19.1":{"1.19.1-1.0.15":"Disabled moving sounds by default due to performance impact"},"1.19.2":{"1.19.2-1.3.0":"","1.19.2-1.4.5":"Updated Simplified Chinese translation"},"1.19.3":{"1.19.3-1.1.0":"Updated ConfigBuilder\nAdded comments to the config\nRemoved sound blacklist regex\nAdded allowed sounds config\nFixed lag when saving in cloth config GUI\nFixed sound distance allowance not working with playsound commands","1.19.3-1.0.18":"Improved performance when having 'update_moving_sounds' enabled"},"1.19.4":{"1.19.4-1.1.1":"Fixed some cloth config settings not saving properly","1.19.4-1.2.1":""},"1.21.7":{"1.21.7-1.4.14":"Updated to 1.21.7"},"1.21.6":{"1.21.6-1.4.14":"Fixed mixin crash"},"1.17.1":{"1.17.1-1.0.6":"Fixed crash when playing sounds that are null"},"1.18.1":{"1.18.1-1.0.6":"Fixed crash when playing sounds that are null"},"1.21.8":{"1.21.8-1.4.15":"Fixed logger crash if config is not initialized yet"},"1.20.4":{"1.20.4-1.4.5":"Updated Simplified Chinese translation","1.20.4-1.3.0":""},"1.21.3":{"1.21.3-1.4.7":"Fixed issues with sounds being played far away\nFixed lag when being far away from 0, 0"},"promos":{"1.18.1-latest":"1.18.1-1.0.6","1.21.4-latest":"1.21.4-1.4.15","1.21.3-latest":"1.21.3-1.4.7","1.18.2-latest":"1.18.2-1.0.6","1.20-recommended":"1.20-1.1.1","1.19.3-recommended":"1.19.3-1.0.18","1.19.1-recommended":"1.19.1-1.0.15","1.21.5-latest":"1.21.5-1.4.15","1.21.1-latest":"1.21.1-1.4.15","1.21.6-latest":"1.21.6-1.4.14","1.19.4-recommended":"1.19.4-1.1.1","1.19-latest":"1.19-1.0.15","1.17.1-recommended":"1.17.1-1.0.6","1.19.2-recommended":"1.19.2-1.3.0","1.18-latest":"1.18-1.0.3","1.21.8-latest":"1.21.8-1.4.15","1.20.4-recommended":"1.20.4-1.3.0","1.21.7-latest":"1.21.7-1.4.14","1.21-latest":"1.21-1.4.6","1.20.1-recommended":"1.20.1-1.3.0","1.20.2-recommended":"1.20.2-1.3.0","1.20-latest":"1.20-1.1.1","1.18.2-recommended":"1.18.2-1.0.6","1.17.1-latest":"1.17.1-1.0.6","1.18.1-recommended":"1.18.1-1.0.6","1.20.1-latest":"1.20.1-1.4.15","1.20.2-latest":"1.20.2-1.3.1","1.19.2-latest":"1.19.2-1.4.5","1.19.4-latest":"1.19.4-1.2.1","1.19.3-latest":"1.19.3-1.1.0","1.19-recommended":"1.19-1.0.15","1.18-recommended":"1.18-1.0.3","1.20.4-latest":"1.20.4-1.4.5","1.19.1-latest":"1.19.1-1.0.15","1.20.6-latest":"1.20.6-1.4.5"},"1.20.6":{"1.20.6-1.4.5":"Updated Simplified Chinese translation"},"1.21.5":{"1.21.5-1.4.15":"Fixed logger crash if config is not initialized yet"},"1.21.4":{"1.21.4-1.4.15":"Fixed logger crash if config is not initialized yet"},"homepage":"https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered"}
+[27Jul2025 19:35:13.837] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.4.15 Target: null
+[27Jul2025 19:35:13.855] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
+[27Jul2025 19:35:14.191] [Worker-ResourceReload-1/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minecraft:entity/fishing_hook with size 8x8 limits mip level from 4 to 3
+[27Jul2025 19:35:14.230] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue COMMON_SETUP: 6 jobs
+[27Jul2025 19:35:14.261] [Render thread/DEBUG] [mixin/]: Mixing CriteriaAccessor from fabric-object-builder-v1.mixins.json into net.minecraft.advancements.CriteriaTriggers
+[27Jul2025 19:35:14.261] [Render thread/DEBUG] [mixin/]: fabric-object-builder-v1.mixins.json:CriteriaAccessor: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:14.262] [Render thread/DEBUG] [mixin/]: Renaming @Invoker method callRegister(Lnet/minecraft/advancements/CriterionTrigger;)Lnet/minecraft/advancements/CriterionTrigger; to callRegister_$md$cc8366$0 in fabric-object-builder-v1.mixins.json:CriteriaAccessor
+[27Jul2025 19:35:14.371] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 139.7 ms
+[27Jul2025 19:35:14.417] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [controlling] Received version check data:
+{"homepage":"https://www.curseforge.com/minecraft/mc-mods/controlling","promos":{"1.20.1-latest":"12.0.2"}}
+[27Jul2025 19:35:14.418] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
+[27Jul2025 19:35:14.418] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lithosphere] Starting version check at https://api.modrinth.com/updates/iv9jp2k9/forge_updates.json
+[27Jul2025 19:35:14.569] [Worker-ResourceReload-1/INFO] [Sound Physics - General/]: Reloading reverb parameters
+[27Jul2025 19:35:14.574] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing AccessKeyBindsScreen from controlling.mixins.json into net.minecraft.client.gui.screens.controls.KeyBindsScreen
+[27Jul2025 19:35:14.591] [Worker-ResourceReload-6/INFO] [chloride/]: LOADED CHLORIDE
+[27Jul2025 19:35:14.596] [Worker-ResourceReload-6/INFO] [Spartan Shields/]: Setting up Client for Spartan Shields!
+[27Jul2025 19:35:14.597] [Worker-ResourceReload-6/INFO] [Spartan Weaponry/]: Setting up Client for Spartan Weaponry!
+[27Jul2025 19:35:14.711] [Worker-ResourceReload-1/INFO] [Sound Physics - General/]: Unknown sound in allowed sound config: spartanweaponry:throwing_weapon_hit_ground
+[27Jul2025 19:35:14.863] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue SIDED_SETUP: 4 jobs
+[27Jul2025 19:35:14.865] [Render thread/DEBUG] [mixin/]: Mixing RenderLayersMixin from fabric-blockrenderlayer-v1.mixins.json into net.minecraft.client.renderer.ItemBlockRenderTypes
+[27Jul2025 19:35:14.866] [Render thread/DEBUG] [mixin/]: Mixing features.render.model.RenderLayersMixin from embeddium.mixins.json into net.minecraft.client.renderer.ItemBlockRenderTypes
+[27Jul2025 19:35:14.867] [Render thread/DEBUG] [mixin/]: Mixing features.options.render_layers.RenderLayersMixin from embeddium.mixins.json into net.minecraft.client.renderer.ItemBlockRenderTypes
+[27Jul2025 19:35:14.884] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 20.41 ms
+[27Jul2025 19:35:14.914] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [mr_lithosphere] Received version check data:
+{"homepage":"https://modrinth.com/mod/iv9jp2k9","promos":{"1.19-recommended":"1.2+mod","1.21.5-recommended":"1.6+mod","1.20-latest":"1.6+mod","1.19.1-latest":"1.2+mod","1.21.3-recommended":"1.6+mod","1.19.2-latest":"1.2+mod","1.20.2-recommended":"1.6+mod","1.21-recommended":"1.6+mod","1.20.5-latest":"1.6+mod","1.21.1-recommended":"1.6+mod","1.19.2-recommended":"1.2+mod","1.21.4-recommended":"1.6+mod","1.20.3-latest":"1.6+mod","1.20.1-recommended":"1.6+mod","1.21.4-latest":"1.6+mod","1.19.4-recommended":"1.2+mod","1.20.4-recommended":"1.6+mod","1.20.6-recommended":"1.6+mod","1.19.3-latest":"1.2+mod","1.19.3-recommended":"1.2+mod","1.19-latest":"1.2+mod","1.20.2-latest":"1.6+mod","1.21.3-latest":"1.6+mod","1.20.3-recommended":"1.6+mod","1.21-latest":"1.6+mod","1.19.4-latest":"1.2+mod","1.20.5-recommended":"1.6+mod","1.20.6-latest":"1.6+mod","1.21.5-latest":"1.6+mod","1.21.2-latest":"1.6+mod","1.20.4-latest":"1.6+mod","1.19.1-recommended":"1.2+mod","1.21.1-latest":"1.6+mod","1.20.1-latest":"1.6+mod","1.20-recommended":"1.6+mod","1.21.2-recommended":"1.6+mod"}}
+[27Jul2025 19:35:14.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lithosphere] Found status: OUTDATED Current: 1.6 Target: 1.6+mod
+[27Jul2025 19:35:14.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_epicterrain] Starting version check at https://api.modrinth.com/updates/7qSJGSHp/forge_updates.json
+[27Jul2025 19:35:14.975] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing perf.model_optimizations.MultiVariantMixin from modernfix-common.mixins.json into net.minecraft.client.renderer.block.model.MultiVariant
+[27Jul2025 19:35:14.985] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing perf.cache_model_materials.MultipartMixin from modernfix-common.mixins.json into net.minecraft.client.renderer.block.model.multipart.MultiPart
+[27Jul2025 19:35:14.990] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing perf.model_optimizations.SelectorMixin from modernfix-common.mixins.json into net.minecraft.client.renderer.block.model.multipart.Selector
+[27Jul2025 19:35:15.105] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [mr_epicterrain] Received version check data:
+{"homepage":"https://modrinth.com/mod/7qSJGSHp","promos":{"1.20.2-latest":"0.2.5+mod","1.19.3-latest":"0.2.5+mod","1.21.3-latest":"0.1.4+mod","1.21.2-latest":"0.1.4+mod","1.20.6-latest":"0.1.4+mod","1.19.2-latest":"0.2.5+mod","1.20.1-latest":"0.2.5+mod","1.21-latest":"0.1.4+mod","1.19.4-latest":"0.2.5+mod","1.20-latest":"0.2.5+mod","1.20.3-latest":"0.2.5+mod","1.20.5-latest":"0.1.4+mod","1.20.4-latest":"0.2.5+mod","1.21.1-latest":"0.1.4+mod","1.21.4-latest":"0.1.4+mod"}}
+[27Jul2025 19:35:15.105] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_epicterrain] Found status: BETA_OUTDATED Current: 0.2.5 Target: 0.2.5+mod
+[27Jul2025 19:35:15.105] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[27Jul2025 19:35:15.192] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing KeyValueConditionMixin from ferritecore.predicates.mixin.json into net.minecraft.client.renderer.block.model.multipart.KeyValueCondition
+[27Jul2025 19:35:15.197] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing AndConditionMixin from ferritecore.predicates.mixin.json into net.minecraft.client.renderer.block.model.multipart.AndCondition
+[27Jul2025 19:35:15.227] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing OrConditionMixin from ferritecore.predicates.mixin.json into net.minecraft.client.renderer.block.model.multipart.OrCondition
+[27Jul2025 19:35:15.408] [Finalizer/WARN] [ModernFix/]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[27Jul2025 19:35:15.413] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.3.0",
+    "1.18.2-latest": "40.3.11",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.5.0",
+    "1.19.2-latest": "43.5.1",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.4.0",
+    "1.19.4-latest": "45.4.1",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.4.0",
+    "1.20.1-latest": "47.4.4",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.2.0",
+    "1.20.4-recommended": "49.2.0",
+    "1.20.6-latest": "50.2.0",
+    "1.20.6-recommended": "50.2.0",
+    "1.21-latest": "51.0.33",
+    "1.21.1-latest": "52.1.1",
+    "1.21.1-recommended": "52.1.0",
+    "1.21.3-latest": "53.1.1",
+    "1.21.3-recommended": "53.1.0",
+    "1.21.4-latest": "54.1.4",
+    "1.21.4-recommended": "54.1.0",
+    "1.21.5-latest": "55.0.24",
+    "1.21.6-latest": "56.0.9",
+    "1.21.7-latest": "57.0.3",
+    "1.21.8-latest": "58.0.1"
+  }
+}
+[27Jul2025 19:35:15.414] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.4 Target: null
+[27Jul2025 19:35:15.414] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[27Jul2025 19:35:15.483] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [searchables] Received version check data:
+{"homepage":"https://www.curseforge.com/minecraft/mc-mods/searchables","promos":{"1.20.1-latest":"1.0.3"}}
+[27Jul2025 19:35:15.483] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.3 Target: 1.0.3
+[27Jul2025 19:35:15.483] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[27Jul2025 19:35:16.038] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing ModelLoaderBakerImplMixin from fabric-model-loading-api-v1.mixins.json into net.minecraft.client.resources.model.ModelBakery$ModelBakerImpl
+[27Jul2025 19:35:16.049] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing MixinMultipartBuilder from ferritecore.dedupmultipart.mixin.json into net.minecraft.client.resources.model.MultiPartBakedModel$Builder
+[27Jul2025 19:35:16.056] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [canary] Received version check data:
+{
+  "homepage": "https://modrinth.com/mod/canary/versions",
+  "promos": {
+    "1.20.4-latest": "0.3.3",
+    "1.20.4-recommended": "0.3.3",
+    "1.20.1-latest": "0.3.3",
+    "1.20.1-recommended": "0.3.3",
+    "1.20-latest": "0.2.5",
+    "1.20-recommended": "0.2.5",
+    "1.19.4-latest": "0.2.5",
+    "1.19.4-recommended": "0.2.5",  
+    "1.19.3-latest": "0.2.5",
+    "1.19.3-recommended": "0.2.5",
+    "1.19.2-latest": "0.3.3",
+    "1.19.2-recommended": "0.3.3",
+    "1.18.2-latest": "0.3.3",
+    "1.18.2-recommended": "0.3.3"
+  }
+}
+[27Jul2025 19:35:16.056] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[27Jul2025 19:35:16.057] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing SimpleModelBuilderMixin from ferritecore.dedupbakedquad.mixin.json into net.minecraft.client.resources.model.SimpleBakedModel$Builder
+[27Jul2025 19:35:16.058] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing core.model.SimpleBakedModelBuilderMixin from embeddium.mixins.json into net.minecraft.client.resources.model.SimpleBakedModel$Builder
+[27Jul2025 19:35:16.064] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing BakedQuadAccess from ferritecore.dedupbakedquad.mixin.json into net.minecraft.client.renderer.block.model.BakedQuad
+[27Jul2025 19:35:16.064] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing core.model.quad.BakedQuadMixin from embeddium.mixins.json into net.minecraft.client.renderer.block.model.BakedQuad
+[27Jul2025 19:35:16.093] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing client.MultipartBakedModelMixin from fabric-renderer-api-v1.mixins.json into net.minecraft.client.resources.model.MultiPartBakedModel
+[27Jul2025 19:35:16.093] [Worker-ResourceReload-6/DEBUG] [mixin/]: fabric-renderer-api-v1.mixins.json:client.MultipartBakedModelMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:16.093] [Worker-ResourceReload-6/DEBUG] [mixin/]: Renaming synthetic method lambda$emitBlockQuads$0(Lnet/minecraft/util/RandomSource;J)Lnet/minecraft/util/RandomSource; to mdcc8366$lambda$emitBlockQuads$0$0 in fabric-renderer-api-v1.mixins.json:client.MultipartBakedModelMixin
+[27Jul2025 19:35:16.097] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing features.model.MultipartBakedModelMixin from embeddium.mixins.json into net.minecraft.client.resources.model.MultiPartBakedModel
+[27Jul2025 19:35:16.097] [Worker-ResourceReload-6/DEBUG] [mixin/]: Renaming synthetic method lambda$getModelComponents$0(I)[Lnet/minecraft/client/resources/model/BakedModel; to mdcc8366$lambda$getModelComponents$0$1 in embeddium.mixins.json:features.model.MultipartBakedModelMixin
+[27Jul2025 19:35:16.105] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing MixinMultipartModel from ferritecore.dedupmultipart.mixin.json into net.minecraft.client.resources.model.MultiPartBakedModel
+[27Jul2025 19:35:16.204] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing client.WeightedBakedModelMixin from fabric-renderer-api-v1.mixins.json into net.minecraft.client.resources.model.WeightedBakedModel
+[27Jul2025 19:35:16.204] [Worker-ResourceReload-6/DEBUG] [mixin/]: fabric-renderer-api-v1.mixins.json:client.WeightedBakedModelMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:16.206] [Worker-ResourceReload-6/DEBUG] [mixin/]: Renaming synthetic method lambda$emitItemQuads$1(Ljava/util/function/Supplier;)Lnet/minecraft/util/RandomSource; to mdcc8366$lambda$emitItemQuads$1$0 in fabric-renderer-api-v1.mixins.json:client.WeightedBakedModelMixin
+[27Jul2025 19:35:16.206] [Worker-ResourceReload-6/DEBUG] [mixin/]: Renaming synthetic method lambda$emitBlockQuads$0(Ljava/util/function/Supplier;)Lnet/minecraft/util/RandomSource; to mdcc8366$lambda$emitBlockQuads$0$1 in fabric-renderer-api-v1.mixins.json:client.WeightedBakedModelMixin
+[27Jul2025 19:35:16.212] [Worker-ResourceReload-6/DEBUG] [mixin/]: Mixing features.model.WeightedBakedModelMixin from embeddium.mixins.json into net.minecraft.client.resources.model.WeightedBakedModel
+[27Jul2025 19:35:18.685] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, fabric]
+[27Jul2025 19:35:18.752] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 9302
+[27Jul2025 19:35:18.785] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[27Jul2025 19:35:18.786] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[27Jul2025 19:35:18.889] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Динамики (Razer BlackShark V2 X USB)
+[27Jul2025 19:35:18.889] [Render thread/INFO] [Sound Physics - General/]: Initializing Sound Physics
+[27Jul2025 19:35:18.890] [Render thread/INFO] [Sound Physics - General/]: EFX Extension recognized
+[27Jul2025 19:35:18.890] [Render thread/INFO] [Sound Physics - General/]: Max auxiliary sends: 4
+[27Jul2025 19:35:18.897] [Render thread/INFO] [Sound Physics - General/]: Aux slot 1 created
+[27Jul2025 19:35:18.898] [Render thread/INFO] [Sound Physics - General/]: Aux slot 2 created
+[27Jul2025 19:35:18.898] [Render thread/INFO] [Sound Physics - General/]: Aux slot 3 created
+[27Jul2025 19:35:18.898] [Render thread/INFO] [Sound Physics - General/]: Aux slot 4 created
+[27Jul2025 19:35:18.903] [Render thread/INFO] [Sound Physics - General/]: EFX ready
+[27Jul2025 19:35:18.905] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[27Jul2025 19:35:19.106] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[27Jul2025 19:35:19.113] [Render thread/DEBUG] [mixin/]: Mixing features.textures.animations.upload.SpriteContentsAnimatorImplAccessor from embeddium.mixins.json into net.minecraft.client.renderer.texture.SpriteContents$Ticker
+[27Jul2025 19:35:19.113] [Render thread/DEBUG] [mixin/]: Mixing features.textures.animations.tracking.SpriteContentsAnimatorImplMixin from embeddium.mixins.json into net.minecraft.client.renderer.texture.SpriteContents$Ticker
+[27Jul2025 19:35:19.120] [Render thread/DEBUG] [mixin/]: Mixing features.textures.animations.upload.SpriteContentsInterpolationMixin from embeddium.mixins.json into net.minecraft.client.renderer.texture.SpriteContents$InterpolationData
+[27Jul2025 19:35:19.278] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[27Jul2025 19:35:19.280] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[27Jul2025 19:35:19.328] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[27Jul2025 19:35:19.331] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[27Jul2025 19:35:19.357] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[27Jul2025 19:35:19.359] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[27Jul2025 19:35:19.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[27Jul2025 19:35:19.362] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[27Jul2025 19:35:19.372] [Render thread/DEBUG] [mixin/]: Mixing PlayerEntityModelMixin from notenoughanimations.mixins.json into net.minecraft.client.model.PlayerModel
+[27Jul2025 19:35:19.372] [Render thread/DEBUG] [mixin/]: notenoughanimations.mixins.json:PlayerEntityModelMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27Jul2025 19:35:19.373] [Render thread/DEBUG] [mixin/]: Mixing PlayerModelAccessor from notenoughanimations.mixins.json into net.minecraft.client.model.PlayerModel
+[27Jul2025 19:35:19.373] [Render thread/DEBUG] [mixin/]: notenoughanimations.mixins.json:PlayerModelAccessor: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27Jul2025 19:35:19.379] [Render thread/DEBUG] [mixin/]: Mixing EntityModelLayersAccessor from fabric-rendering-v1.mixins.json into net.minecraft.client.model.geom.ModelLayers
+[27Jul2025 19:35:19.380] [Render thread/DEBUG] [mixin/]: fabric-rendering-v1.mixins.json:EntityModelLayersAccessor: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[27Jul2025 19:35:19.380] [Render thread/DEBUG] [mixin/]: Renaming @Accessor method getLayers()Ljava/util/Set; to getLayers_$md$cc8366$0 in fabric-rendering-v1.mixins.json:EntityModelLayersAccessor
+[27Jul2025 19:35:19.407] [Render thread/DEBUG] [mixin/]: Mixing features.render.entity.fast_render.CuboidMixin from embeddium.mixins.json into net.minecraft.client.model.geom.ModelPart$Cube
+[27Jul2025 19:35:19.499] [Render thread/DEBUG] [mixin/]: Mixing entity.renderer.feature.MixinShoulderParrotFeatureRenderer from entity_texture_features-common.mixins.json into net.minecraft.client.renderer.entity.layers.ParrotOnShoulderLayer
+[27Jul2025 19:35:20.049] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[27Jul2025 19:35:20.935] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[27Jul2025 19:35:20.951] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[27Jul2025 19:35:20.953] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[27Jul2025 19:35:20.958] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[27Jul2025 19:35:20.980] [Render thread/INFO] [Entity Texture Features/]: [ETF]: reloading ETF data.
+[27Jul2025 19:35:20.985] [Render thread/DEBUG] [mixin/]: Mixing mods.iris.old.MixinFullyBufferedMultiBufferSource from entity_texture_features-common.mixins.json into traben.entity_texture_features.ETFException
+[27Jul2025 19:35:20.986] [Render thread/DEBUG] [mixin/]: Mixing mods.iris.old.MixinInnerWrappedRenderType from entity_texture_features-common.mixins.json into traben.entity_texture_features.ETFException
+[27Jul2025 19:35:20.986] [Render thread/DEBUG] [mixin/]: Mixing mods.iris.old.MixinOuterWrappedRenderType from entity_texture_features-common.mixins.json into traben.entity_texture_features.ETFException
+[27Jul2025 19:35:21.001] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}.
+[27Jul2025 19:35:21.006] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}.
+[27Jul2025 19:35:21.156] [Render thread/DEBUG] [Cold Sweat/]: Formatted config file: coldsweat/main.toml
+[27Jul2025 19:35:21.164] [Render thread/DEBUG] [Cold Sweat/]: Formatted config file: coldsweat/world.toml
+[27Jul2025 19:35:21.167] [Render thread/DEBUG] [Cold Sweat/]: Formatted config file: coldsweat/item.toml
+[27Jul2025 19:35:21.169] [Render thread/DEBUG] [Cold Sweat/]: Formatted config file: coldsweat/entity.toml
+[27Jul2025 19:35:21.340] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[27Jul2025 19:35:23.014] [Render thread/DEBUG] [mixin/]: Mixing FontShadowMixin$StringRenderOutputMixin from chloride.mixin.json into net.minecraft.client.gui.Font$StringRenderOutput
+[27Jul2025 19:35:23.122] [Render thread/WARN] [ModernFix/]: Game took 54.433 seconds to start
