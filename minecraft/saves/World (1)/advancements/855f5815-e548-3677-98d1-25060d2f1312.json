@@ -1,9 +1,28 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
+<<<<<<< Updated upstream
       "unlock_right_away": "2025-07-27 18:06:13 +0300"
     },
     "done": true
   },
+=======
+      "unlock_right_away": "2025-07-27 18:36:47 +0300"
+    },
+    "done": true
+  },
+  "cold_sweat:root": {
+    "criteria": {
+      "requirement": "2025-07-27 18:36:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-07-27 18:36:48 +0300"
+    },
+    "done": false
+  },
+>>>>>>> Stashed changes
   "DataVersion": 3465
 }
