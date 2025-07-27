@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [18:01:29] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.14
 [18:01:30] [main/INFO]: Loading 127 mods:
 	- antixray 1.4.6
@@ -568,6 +569,8 @@ Unknown attribute `puffish_skills:player.mining_speed` at `attribute` at `data` 
 [18:06:28] [Render thread/INFO]: Stopping!
 [18:06:28] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
 =======
+=======
+>>>>>>> Stashed changes
 [27Jul2025 18:29:57.632] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, AnalDestroyer, --version, 1.20.1, --gameDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/instances/MineCivModpack/minecraft, --assetsDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, 855f5815e548367798d125060d2f1312, --accessToken, ❄❄❄❄❄❄❄❄, --userType, offline, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
 [27Jul2025 18:29:57.641] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.8 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
 [27Jul2025 18:29:58.286] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
@@ -2214,7 +2217,10 @@ java.nio.file.FileSystemException: C:\Users\Леис\AppData\Roaming\PrismLaunch
 [27Jul2025 19:17:28.170] [Netty Client IO #14/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [thirst:main,spartanshields:network,watchdog:main,spartanweaponry:network,cold_sweat:main] rejected vanilla connections
 [27Jul2025 19:17:29.332] [Netty Client IO #15/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [thirst:main,spartanshields:network,watchdog:main,spartanweaponry:network,cold_sweat:main] rejected vanilla connections
 [27Jul2025 19:17:45.774] [Netty Client IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [thirst:main,spartanshields:network,watchdog:main,spartanweaponry:network,cold_sweat:main] rejected vanilla connections
+<<<<<<< Updated upstream
 [27Jul2025 19:18:20.668] [CullThread/INFO] [STDOUT/]: [dev.tr7zw.entityculling.CullTask:run:90]: Shutting down culling task!
 [27Jul2025 19:18:20.672] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
 [27Jul2025 19:18:20.694] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}.
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

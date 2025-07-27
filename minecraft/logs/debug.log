@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [27Jul2025 11:43:58.837] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, AnalDestroyer, --version, 1.20.1, --gameDir, C:/Users/����/AppData/Roaming/PrismLauncher/instances/MineCivModpack/minecraft, --assetsDir, C:/Users/����/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, 855f5815e548367798d125060d2f1312, --accessToken, ????????, --userType, offline, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
 [27Jul2025 11:43:58.851] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Microsoft; OS Windows 10 arch amd64 version 10.0
 [27Jul2025 11:43:58.976] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
@@ -2396,6 +2397,8 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
 	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
 =======
+=======
+>>>>>>> Stashed changes
 [27Jul2025 18:29:57.632] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, AnalDestroyer, --version, 1.20.1, --gameDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/instances/MineCivModpack/minecraft, --assetsDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, 855f5815e548367798d125060d2f1312, --accessToken, ❄❄❄❄❄❄❄❄, --userType, offline, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
 [27Jul2025 18:29:57.641] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.8 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
 [27Jul2025 18:29:57.688] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
@@ -4806,6 +4809,9 @@ java.lang.NoSuchMethodException: java.nio.DirectByteBuffer.<init>(long,int)
 	at java.lang.Class.getDeclaredConstructor(Class.java:2930) ~[?:?]
 	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
 	at java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
 	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
@@ -4813,6 +4819,7 @@ java.lang.NoSuchMethodException: java.nio.DirectByteBuffer.<init>(long,int)
 	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
 	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
 	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraft.server.Bootstrap.handler$zgj000$modernfix$doClassloadHack(Bootstrap.java:1034) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
@@ -4838,6 +4845,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
 	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.server.Bootstrap.handler$zgj000$modernfix$doClassloadHack(Bootstrap.java:1034) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:69) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -4861,6 +4870,9 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at java.lang.reflect.Method.invoke(Method.java:571) ~[?:?]
 	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
 	at java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
 	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
@@ -4868,6 +4880,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
 	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
 	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraft.server.Bootstrap.handler$zgj000$modernfix$doClassloadHack(Bootstrap.java:1034) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
@@ -7813,6 +7826,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jul2025 11:44:38.416] [Worker-ResourceReload-1/DEBUG] [mixin/]: fabric-renderer-api-v1.mixins.json:client.WeightedBakedModelMixin from mod fabric_renderer_api_v1->@Inject::onInit(Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
 [27Jul2025 11:44:38.632] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.server.Bootstrap.handler$zgj000$modernfix$doClassloadHack(Bootstrap.java:1034) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:69) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -10216,6 +10231,9 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jul2025 18:30:35.792] [Render thread/DEBUG] [mixin/]: entity_texture_features-common.mixins.json:entity.renderer.feature.MixinShoulderParrotFeatureRenderer from mod entity_texture_features->@Inject::etf$resetEntity(Lcom/mojang/blaze3d/vertex/PoseStack;ZLnet/minecraft/world/entity/player/Player;Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/client/renderer/MultiBufferSource;IFFFFLnet/minecraft/world/entity/EntityType;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
 [27Jul2025 18:30:36.335] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
 [27Jul2025 18:30:36.698] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 {
   "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
@@ -10327,6 +10345,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
   }
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [27Jul2025 11:44:38.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.4 Target: null
 [27Jul2025 11:44:38.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
 [27Jul2025 11:44:38.701] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [searchables] Received version check data:
@@ -10335,6 +10354,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jul2025 11:44:38.701] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
 [27Jul2025 11:44:39.216] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [canary] Received version check data:
 =======
+=======
+>>>>>>> Stashed changes
 [27Jul2025 18:30:36.698] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.4 Target: null
 [27Jul2025 18:30:36.698] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
 [27Jul2025 18:30:37.148] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
@@ -10360,6 +10381,9 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jul2025 18:30:39.242] [Render thread/DEBUG] [mixin/]: chloride.mixin.json:FontShadowMixin$StringRenderOutputMixin from mod chloride->@Inject::inject$accept(ILnet/minecraft/network/chat/Style;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
 [27Jul2025 18:30:39.332] [Render thread/WARN] [ModernFix/]: Game took 48.055 seconds to start
 [27Jul2025 18:30:40.462] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [canary] Received version check data:
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 {
   "homepage": "https://modrinth.com/mod/canary/versions",
@@ -10380,6 +10404,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
     "1.18.2-recommended": "0.3.3"
   }
 }
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 [27Jul2025 11:44:39.217] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
 [27Jul2025 11:44:40.583] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: []
@@ -10924,6 +10949,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 [27Jul2025 18:30:40.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
 [27Jul2025 18:30:55.235] [Render thread/DEBUG] [mixin/]: Mixing CreativeInventoryScreenMixin from fabric-item-group-api-v1.client.mixins.json into net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen
 [27Jul2025 18:30:55.249] [Render thread/DEBUG] [mixin/]: fabric-item-group-api-v1.client.mixins.json:CreativeInventoryScreenMixin from mod fabric_item_group_api_v1->@Inject::initPages(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;ILjava/util/List;Ljava/util/Iterator;Lnet/minecraft/world/item/CreativeModeTab;)V doesn't use it's CallbackInfo
@@ -11384,6 +11411,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11392,16 +11422,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11411,20 +11447,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
@@ -11453,6 +11496,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -11479,6 +11524,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11487,16 +11535,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11506,20 +11560,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
@@ -11553,6 +11614,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -11584,6 +11647,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11592,16 +11658,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11611,20 +11683,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
@@ -11653,6 +11732,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -11679,6 +11760,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11687,16 +11771,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11706,20 +11796,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
@@ -11751,6 +11848,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -11780,6 +11879,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11788,16 +11890,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11807,20 +11915,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
@@ -11849,6 +11964,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -11875,6 +11992,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11883,16 +12003,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11902,20 +12028,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
@@ -11945,6 +12078,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -11972,6 +12107,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11980,16 +12118,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -11999,20 +12143,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
@@ -12041,6 +12192,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -12067,6 +12220,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -12075,16 +12231,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -12094,20 +12256,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
@@ -12136,6 +12305,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -12162,6 +12333,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -12170,16 +12344,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -12189,20 +12369,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
@@ -12231,6 +12418,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -12257,6 +12446,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -12265,16 +12457,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -12284,20 +12482,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
@@ -12327,6 +12532,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -12354,6 +12561,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -12362,16 +12572,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
@@ -12381,20 +12597,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
 	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23215!/:?]
@@ -15591,6 +15814,8 @@ This may indicate that these types of item need a subtype interpreter added to J
 [27Jul2025 11:53:50.113] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
 [27Jul2025 11:53:50.134] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}.
 =======
+=======
+>>>>>>> Stashed changes
 	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23217!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23212!/:?]
@@ -18485,7 +18710,10 @@ java.nio.file.FileSystemException: C:\Users\Леис\AppData\Roaming\PrismLaunch
 [27Jul2025 19:17:45.774] [Netty Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
 [27Jul2025 19:17:45.774] [Netty Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'appleskin:sync' : Vanilla acceptance test: ACCEPTED
 [27Jul2025 19:17:45.774] [Netty Client IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [thirst:main,spartanshields:network,watchdog:main,spartanweaponry:network,cold_sweat:main] rejected vanilla connections
+<<<<<<< Updated upstream
 [27Jul2025 19:18:20.668] [CullThread/INFO] [STDOUT/]: [dev.tr7zw.entityculling.CullTask:run:90]: Shutting down culling task!
 [27Jul2025 19:18:20.672] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
 [27Jul2025 19:18:20.694] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}.
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
