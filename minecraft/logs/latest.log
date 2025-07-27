@@ -1,14 +1,116 @@
-[27Jul2025 19:21:24.466] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, AnalDestroyer, --version, 1.20.1, --gameDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/instances/MineCivModpack/minecraft, --assetsDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, 855f5815e548367798d125060d2f1312, --accessToken, ❄❄❄❄❄❄❄❄, --userType, offline, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
-[27Jul2025 19:21:24.489] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.8 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[27Jul2025 19:21:25.770] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[27Jul2025 19:21:25.988] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[27Jul2025 19:21:26.129] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[27Jul2025 19:21:26.363] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Леис/AppData/Roaming/PrismLauncher/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23150!/ Service=ModLauncher Env=CLIENT
-[27Jul2025 19:21:27.093] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics 630 GL version 4.6.0 - Build 26.20.100.6911, Intel
-[27Jul2025 19:21:27.984] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.4\fmlcore-1.20.1-47.4.4.jar is missing mods.toml file
-[27Jul2025 19:21:28.005] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.4\javafmllanguage-1.20.1-47.4.4.jar is missing mods.toml file
-[27Jul2025 19:21:28.018] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.4\lowcodelanguage-1.20.1-47.4.4.jar is missing mods.toml file
-[27Jul2025 19:21:28.043] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.4\mclanguage-1.20.1-47.4.4.jar is missing mods.toml file
-[27Jul2025 19:21:28.207] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[27Jul2025 19:21:28.347] [main/ERROR] [net.minecraftforge.fml.loading.LanguageLoadingProvider/LOADING]: Missing language javafml version  wanted by yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar, found 47
-[27Jul2025 19:21:30.878] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft, --assetsDir, C:\Users\Леис\AppData\Roaming\PrismLauncher\assets, --uuid, 855f5815e548367798d125060d2f1312, --username, AnalDestroyer, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --userType, offline, --versionType, release, --width, 854, --height, 480]
+[27Jul2025 19:34:35.809] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, AnalDestroyer, --version, 1.20.1, --gameDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/instances/MineCivModpack/minecraft, --assetsDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, 855f5815e548367798d125060d2f1312, --accessToken, ❄❄❄❄❄❄❄❄, --userType, offline, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
+[27Jul2025 19:34:35.821] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.8 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[27Jul2025 19:34:36.452] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[27Jul2025 19:34:36.795] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[27Jul2025 19:34:36.899] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[27Jul2025 19:34:37.056] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Леис/AppData/Roaming/PrismLauncher/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23150!/ Service=ModLauncher Env=CLIENT
+[27Jul2025 19:34:38.074] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics 630 GL version 4.6.0 - Build 26.20.100.6911, Intel
+[27Jul2025 19:34:38.552] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.4\fmlcore-1.20.1-47.4.4.jar is missing mods.toml file
+[27Jul2025 19:34:38.560] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.4\javafmllanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[27Jul2025 19:34:38.568] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.4\lowcodelanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[27Jul2025 19:34:38.576] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.4\mclanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[27Jul2025 19:34:39.406] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 49 dependencies adding them to mods collection
+[27Jul2025 19:34:44.448] [main/ERROR] [mixin/]: Mixin config fabric-item-api-v1.client.mixins.json does not specify "minVersion" property
+[27Jul2025 19:34:44.471] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[27Jul2025 19:34:44.556] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.mixins.json does not specify "minVersion" property
+[27Jul2025 19:34:44.565] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.client.mixins.json does not specify "minVersion" property
+[27Jul2025 19:34:44.703] [main/ERROR] [mixin/]: Mixin config fabric-item-group-api-v1.mixins.json does not specify "minVersion" property
+[27Jul2025 19:34:44.708] [main/ERROR] [mixin/]: Mixin config fabric-item-group-api-v1.client.mixins.json does not specify "minVersion" property
+[27Jul2025 19:34:45.255] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[27Jul2025 19:34:45.258] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
+[27Jul2025 19:34:45.299] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft, --assetsDir, C:\Users\Леис\AppData\Roaming\PrismLauncher\assets, --uuid, 855f5815e548367798d125060d2f1312, --username, AnalDestroyer, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --userType, offline, --versionType, release, --width, 854, --height, 480]
+[27Jul2025 19:34:45.906] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.3+mc1.20.1: 96 options available, 0 override(s) found
+[27Jul2025 19:34:45.911] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[27Jul2025 19:34:46.093] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[27Jul2025 19:34:46.340] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 116 options available, 0 override(s) found
+[27Jul2025 19:34:46.345] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Searching for graphics cards...
+[27Jul2025 19:34:47.584] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Intel(R) UHD Graphics 630, version=DriverVersion=26.20.100.6911]
+[27Jul2025 19:34:47.586] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce GTX 1650, version=DriverVersion=32.0.15.7700]
+[27Jul2025 19:34:47.598] [main/WARN] [Embeddium-Workarounds/]: Embeddium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[27Jul2025 19:34:47.598] [main/WARN] [Embeddium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[27Jul2025 19:34:47.700] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[27Jul2025 19:34:49.711] [main/WARN] [mixin/]: Error loading class: dev/emi/emi/screen/EmiScreenManager (java.lang.ClassNotFoundException: dev.emi.emi.screen.EmiScreenManager)
+[27Jul2025 19:34:49.716] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/impl/client/gui/ScreenOverlayImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.gui.ScreenOverlayImpl)
+[27Jul2025 19:34:49.972] [main/WARN] [mixin/]: Error loading class: net/raphimc/immediatelyfast/feature/core/BatchableBufferSource (java.lang.ClassNotFoundException: net.raphimc.immediatelyfast.feature.core.BatchableBufferSource)
+[27Jul2025 19:34:49.974] [main/WARN] [mixin/]: Error loading class: net/irisshaders/batchedentityrendering/impl/FullyBufferedMultiBufferSource (java.lang.ClassNotFoundException: net.irisshaders.batchedentityrendering.impl.FullyBufferedMultiBufferSource)
+[27Jul2025 19:34:49.975] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/layer/InnerWrappedRenderType (java.lang.ClassNotFoundException: net.irisshaders.iris.layer.InnerWrappedRenderType)
+[27Jul2025 19:34:49.978] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/layer/OuterWrappedRenderType (java.lang.ClassNotFoundException: net.irisshaders.iris.layer.OuterWrappedRenderType)
+[27Jul2025 19:34:49.981] [main/WARN] [mixin/]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev.tr7zw.skinlayers.render.CustomizableModelPart)
+[27Jul2025 19:34:50.446] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[27Jul2025 19:34:50.446] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:accessors.brewinandchewin.KegBlockEntityAccessor
+[27Jul2025 19:34:50.448] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[27Jul2025 19:34:50.449] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:brewinandchewin.MixinKegBlockEntity
+[27Jul2025 19:34:50.454] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/crafting/KegFermentingRecipe (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.crafting.KegFermentingRecipe)
+[27Jul2025 19:34:50.456] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.crafting.KegFermentingRecipe was not found thirst.mixin.json:brewinandchewin.MixinKegFermentingRecipe
+[27Jul2025 19:34:50.457] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/processing/basin/BasinRecipe (java.lang.ClassNotFoundException: com.simibubi.create.content.processing.basin.BasinRecipe)
+[27Jul2025 19:34:50.458] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.processing.basin.BasinRecipe was not found thirst.mixin.json:create.MixinBasinRecipe
+[27Jul2025 19:34:50.459] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/spout/FillingBySpout (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.spout.FillingBySpout)
+[27Jul2025 19:34:50.459] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.spout.FillingBySpout was not found thirst.mixin.json:create.MixinFillingBySpout
+[27Jul2025 19:34:50.464] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/FluidDrainingBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour)
+[27Jul2025 19:34:50.468] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour was not found thirst.mixin.json:create.MixinFluidDrainingBehaviour
+[27Jul2025 19:34:50.470] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemEmptying (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemEmptying)
+[27Jul2025 19:34:50.470] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemEmptying was not found thirst.mixin.json:create.MixinGenericItemEmptying
+[27Jul2025 19:34:50.472] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemFilling (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemFilling)
+[27Jul2025 19:34:50.472] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemFilling was not found thirst.mixin.json:create.MixinGenericItemFilling
+[27Jul2025 19:34:50.475] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/api/equipment/goggles/IHaveGoggleInformation (java.lang.ClassNotFoundException: com.simibubi.create.api.equipment.goggles.IHaveGoggleInformation)
+[27Jul2025 19:34:50.476] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.api.equipment.goggles.IHaveGoggleInformation was not found thirst.mixin.json:create.MixinIHaveGoggleInformation
+[27Jul2025 19:34:50.478] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/OpenEndedPipe (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.OpenEndedPipe)
+[27Jul2025 19:34:50.479] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.OpenEndedPipe was not found thirst.mixin.json:create.MixinOpenEndedPipe
+[27Jul2025 19:34:50.480] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/entity/KettleBlockEntity (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.entity.KettleBlockEntity)
+[27Jul2025 19:34:50.480] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.entity.KettleBlockEntity was not found thirst.mixin.json:farmersrespite.MixinKettleBlockEntity
+[27Jul2025 19:34:50.482] [main/WARN] [mixin/]: Error loading class: snownee/jade/api/view/FluidView (java.lang.ClassNotFoundException: snownee.jade.api.view.FluidView)
+[27Jul2025 19:34:50.482] [main/WARN] [mixin/]: @Mixin target snownee.jade.api.view.FluidView was not found thirst.mixin.json:jade.MixinFluidView
+[27Jul2025 19:34:50.483] [main/WARN] [mixin/]: Error loading class: toughasnails/item/EmptyCanteenItem (java.lang.ClassNotFoundException: toughasnails.item.EmptyCanteenItem)
+[27Jul2025 19:34:50.484] [main/WARN] [mixin/]: @Mixin target toughasnails.item.EmptyCanteenItem was not found thirst.mixin.json:toughasnails.MixinEmptyCanteenItem
+[27Jul2025 19:34:50.488] [main/WARN] [mixin/]: Error loading class: toughasnails/config/ThirstConfig (java.lang.ClassNotFoundException: toughasnails.config.ThirstConfig)
+[27Jul2025 19:34:50.488] [main/WARN] [mixin/]: @Mixin target toughasnails.config.ThirstConfig was not found thirst.mixin.json:toughasnails.MixinServerConfig
+[27Jul2025 19:34:50.490] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHandler (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHandler)
+[27Jul2025 19:34:50.490] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHandler was not found thirst.mixin.json:toughasnails.MixinThirstHandler
+[27Jul2025 19:34:50.491] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHelperImpl (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHelperImpl)
+[27Jul2025 19:34:50.492] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHelperImpl was not found thirst.mixin.json:toughasnails.MixinThirstHelperImpl
+[27Jul2025 19:34:50.493] [main/WARN] [mixin/]: Error loading class: vazkii/botania/forge/xplat/ForgeXplatImpl (java.lang.ClassNotFoundException: vazkii.botania.forge.xplat.ForgeXplatImpl)
+[27Jul2025 19:34:50.493] [main/WARN] [mixin/]: @Mixin target vazkii.botania.forge.xplat.ForgeXplatImpl was not found thirst.mixin.json:botania.MixinForgeXplatImpl
+[27Jul2025 19:34:50.506] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/client/gui/KettleScreen (java.lang.ClassNotFoundException: umpaz.farmersrespite.client.gui.KettleScreen)
+[27Jul2025 19:34:50.506] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.client.gui.KettleScreen was not found thirst.mixin.json:farmersrespite.MixinKettleScreen
+[27Jul2025 19:34:50.508] [main/WARN] [mixin/]: Error loading class: toughasnails/client/handler/TooltipHandler (java.lang.ClassNotFoundException: toughasnails.client.handler.TooltipHandler)
+[27Jul2025 19:34:50.509] [main/WARN] [mixin/]: @Mixin target toughasnails.client.handler.TooltipHandler was not found thirst.mixin.json:toughasnails.MixinTooltipHandler
+[27Jul2025 19:34:50.856] [main/WARN] [mixin/]: Error loading class: com/mrbysco/spoiled/config/SpoiledConfigCache (java.lang.ClassNotFoundException: com.mrbysco.spoiled.config.SpoiledConfigCache)
+[27Jul2025 19:34:50.856] [main/WARN] [mixin/]: @Mixin target com.mrbysco.spoiled.config.SpoiledConfigCache was not found cold_sweat.mixin.json:compat.MixinSpoiledIcebox$ContainerModifier
+[27Jul2025 19:34:51.435] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[27Jul2025 19:34:54.135] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (25.44 s after launch)
+[27Jul2025 19:34:54.514] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[27Jul2025 19:34:54.515] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[27Jul2025 19:34:54.680] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[27Jul2025 19:34:54.680] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[27Jul2025 19:34:56.498] [pool-4-thread-1/WARN] [mixin/]: Method overwrite conflict for m_6104_ in embeddium.mixins.json:features.options.render_layers.LeavesBlockMixin, previously written by me.srrapero720.chloride.mixins.impl.leaves_culling.LeavesBlockMixin. Skipping method.
+[27Jul2025 19:34:57.077] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2937 milliseconds
+[27Jul2025 19:35:03.118] [main/WARN] [net.minecraft.client.main.Main/]: Unrecognized user type: offline
+[27Jul2025 19:35:03.957] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Леис/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23202!/assets/.mcassetsroot' uses unexpected schema
+[27Jul2025 19:35:03.958] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Леис/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23202!/data/.mcassetsroot' uses unexpected schema
+[27Jul2025 19:35:04.026] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[27Jul2025 19:35:04.041] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: AnalDestroyer
+[27Jul2025 19:35:04.232] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
+[27Jul2025 19:35:04.565] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, fabric]
+[27Jul2025 19:35:04.589] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[27Jul2025 19:35:04.752] [Render thread/WARN] [Embeddium-NvidiaWorkarounds/]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[27Jul2025 19:35:04.807] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Vendor: Intel
+[27Jul2025 19:35:04.807] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Renderer: Intel(R) UHD Graphics 630
+[27Jul2025 19:35:04.807] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Version: 4.6.0 - Build 26.20.100.6911
+[27Jul2025 19:35:05.475] [modloading-worker-0/INFO] [STDOUT/]: [dev.tr7zw.trender.gui.impl.client.LibGuiClient:onInitializeClient:38]: [LibGui] Initializing Client...
+[27Jul2025 19:35:05.479] [modloading-worker-0/INFO] [net.fabricmc.fabric.impl.client.indigo.Indigo/]: [Indigo] Registering Indigo renderer!
+[27Jul2025 19:35:05.535] [modloading-worker-0/INFO] [chloride/Main]: Chloride is here, lets make your experience taste-able
+[27Jul2025 19:35:05.546] [modloading-worker-0/INFO] [Entity Texture Features/]: Loading Entity Texture Features, Curse you Perry the Platypus!
+[27Jul2025 19:35:05.579] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Main.initialize()
+[27Jul2025 19:35:05.587] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Initialized.
+[27Jul2025 19:35:05.638] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[27Jul2025 19:35:05.639] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.4, for MC 1.20.1 with MCP 20230612.114412
+[27Jul2025 19:35:05.640] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.4 Initialized
+[27Jul2025 19:35:05.838] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[27Jul2025 19:35:05.839] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
+[27Jul2025 19:35:05.933] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
+[27Jul2025 19:35:06.141] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[27Jul2025 19:35:06.149] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 7.080 ms
+[27Jul2025 19:35:06.399] [modloading-worker-0/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_109501_ in embeddium.mixins.json:core.render.world.WorldRendererMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[27Jul2025 19:35:09.030] [Render thread/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on cold_sweat.mixin.json:MixinRegistration::handler$bnc000$loadRegistryContents exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[27Jul2025 19:35:10.823] [Render thread/INFO] [ModernFix/]: Replacing search trees with 'JEI' provider
+[27Jul2025 19:35:10.946] [Render thread/INFO] [chloride/]: Registering CHLORIDE built-in packs
