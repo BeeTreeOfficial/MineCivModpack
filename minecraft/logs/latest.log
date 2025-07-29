@@ -1,201 +1,325 @@
-[28Jul2025 14:36:28.541] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, AnalDestroyer, --version, 1.20.1, --gameDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/instances/MineCivModpack/minecraft, --assetsDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, 855f5815e548367798d125060d2f1312, --accessToken, ❄❄❄❄❄❄❄❄, --userType, offline, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
-[28Jul2025 14:36:28.549] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.8 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[28Jul2025 14:36:29.014] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[28Jul2025 14:36:29.183] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[28Jul2025 14:36:29.822] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[28Jul2025 14:36:29.956] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Леис/AppData/Roaming/PrismLauncher/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23150!/ Service=ModLauncher Env=CLIENT
-[28Jul2025 14:36:30.494] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 577.00, NVIDIA Corporation
-[28Jul2025 14:36:30.808] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.4\fmlcore-1.20.1-47.4.4.jar is missing mods.toml file
-[28Jul2025 14:36:30.814] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.4\javafmllanguage-1.20.1-47.4.4.jar is missing mods.toml file
-[28Jul2025 14:36:30.823] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.4\lowcodelanguage-1.20.1-47.4.4.jar is missing mods.toml file
-[28Jul2025 14:36:30.830] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.4\mclanguage-1.20.1-47.4.4.jar is missing mods.toml file
-[28Jul2025 14:36:31.183] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
-[28Jul2025 14:36:33.289] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[28Jul2025 14:36:33.429] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[28Jul2025 14:36:33.431] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft, --assetsDir, C:\Users\Леис\AppData\Roaming\PrismLauncher\assets, --uuid, 855f5815e548367798d125060d2f1312, --username, AnalDestroyer, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --userType, offline, --versionType, release, --width, 854, --height, 480]
-[28Jul2025 14:36:33.574] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.3+mc1.20.1: 96 options available, 0 override(s) found
-[28Jul2025 14:36:33.575] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[28Jul2025 14:36:33.604] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[28Jul2025 14:36:33.651] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
-[28Jul2025 14:36:33.864] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 74 options available, 0 override(s) found
-[28Jul2025 14:36:33.867] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Searching for graphics cards...
-[28Jul2025 14:36:34.644] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Intel(R) UHD Graphics 630, version=DriverVersion=26.20.100.6911]
-[28Jul2025 14:36:34.644] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce GTX 1650, version=DriverVersion=32.0.15.7700]
-[28Jul2025 14:36:34.651] [main/WARN] [Embeddium-Workarounds/]: Embeddium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
-[28Jul2025 14:36:34.653] [main/WARN] [Embeddium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
-[28Jul2025 14:36:34.881] [main/WARN] [mixin/]: Error loading class: net/raphimc/immediatelyfast/feature/core/BatchableBufferSource (java.lang.ClassNotFoundException: net.raphimc.immediatelyfast.feature.core.BatchableBufferSource)
-[28Jul2025 14:36:34.883] [main/WARN] [mixin/]: Error loading class: net/irisshaders/batchedentityrendering/impl/FullyBufferedMultiBufferSource (java.lang.ClassNotFoundException: net.irisshaders.batchedentityrendering.impl.FullyBufferedMultiBufferSource)
-[28Jul2025 14:36:34.885] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/layer/InnerWrappedRenderType (java.lang.ClassNotFoundException: net.irisshaders.iris.layer.InnerWrappedRenderType)
-[28Jul2025 14:36:34.888] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/layer/OuterWrappedRenderType (java.lang.ClassNotFoundException: net.irisshaders.iris.layer.OuterWrappedRenderType)
-[28Jul2025 14:36:34.891] [main/WARN] [mixin/]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev.tr7zw.skinlayers.render.CustomizableModelPart)
-[28Jul2025 14:36:36.136] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
-[28Jul2025 14:36:36.137] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:accessors.brewinandchewin.KegBlockEntityAccessor
-[28Jul2025 14:36:36.139] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
-[28Jul2025 14:36:36.139] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:brewinandchewin.MixinKegBlockEntity
-[28Jul2025 14:36:36.141] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/crafting/KegFermentingRecipe (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.crafting.KegFermentingRecipe)
-[28Jul2025 14:36:36.142] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.crafting.KegFermentingRecipe was not found thirst.mixin.json:brewinandchewin.MixinKegFermentingRecipe
-[28Jul2025 14:36:36.143] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/processing/basin/BasinRecipe (java.lang.ClassNotFoundException: com.simibubi.create.content.processing.basin.BasinRecipe)
-[28Jul2025 14:36:36.143] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.processing.basin.BasinRecipe was not found thirst.mixin.json:create.MixinBasinRecipe
-[28Jul2025 14:36:36.145] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/spout/FillingBySpout (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.spout.FillingBySpout)
-[28Jul2025 14:36:36.145] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.spout.FillingBySpout was not found thirst.mixin.json:create.MixinFillingBySpout
-[28Jul2025 14:36:36.146] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/FluidDrainingBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour)
-[28Jul2025 14:36:36.147] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour was not found thirst.mixin.json:create.MixinFluidDrainingBehaviour
-[28Jul2025 14:36:36.148] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemEmptying (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemEmptying)
-[28Jul2025 14:36:36.148] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemEmptying was not found thirst.mixin.json:create.MixinGenericItemEmptying
-[28Jul2025 14:36:36.152] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemFilling (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemFilling)
-[28Jul2025 14:36:36.153] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemFilling was not found thirst.mixin.json:create.MixinGenericItemFilling
-[28Jul2025 14:36:36.155] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/api/equipment/goggles/IHaveGoggleInformation (java.lang.ClassNotFoundException: com.simibubi.create.api.equipment.goggles.IHaveGoggleInformation)
-[28Jul2025 14:36:36.156] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.api.equipment.goggles.IHaveGoggleInformation was not found thirst.mixin.json:create.MixinIHaveGoggleInformation
-[28Jul2025 14:36:36.157] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/OpenEndedPipe (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.OpenEndedPipe)
-[28Jul2025 14:36:36.158] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.OpenEndedPipe was not found thirst.mixin.json:create.MixinOpenEndedPipe
-[28Jul2025 14:36:36.159] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/entity/KettleBlockEntity (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.entity.KettleBlockEntity)
-[28Jul2025 14:36:36.159] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.entity.KettleBlockEntity was not found thirst.mixin.json:farmersrespite.MixinKettleBlockEntity
-[28Jul2025 14:36:36.161] [main/WARN] [mixin/]: Error loading class: snownee/jade/api/view/FluidView (java.lang.ClassNotFoundException: snownee.jade.api.view.FluidView)
-[28Jul2025 14:36:36.161] [main/WARN] [mixin/]: @Mixin target snownee.jade.api.view.FluidView was not found thirst.mixin.json:jade.MixinFluidView
-[28Jul2025 14:36:36.162] [main/WARN] [mixin/]: Error loading class: toughasnails/item/EmptyCanteenItem (java.lang.ClassNotFoundException: toughasnails.item.EmptyCanteenItem)
-[28Jul2025 14:36:36.163] [main/WARN] [mixin/]: @Mixin target toughasnails.item.EmptyCanteenItem was not found thirst.mixin.json:toughasnails.MixinEmptyCanteenItem
-[28Jul2025 14:36:36.164] [main/WARN] [mixin/]: Error loading class: toughasnails/config/ThirstConfig (java.lang.ClassNotFoundException: toughasnails.config.ThirstConfig)
-[28Jul2025 14:36:36.164] [main/WARN] [mixin/]: @Mixin target toughasnails.config.ThirstConfig was not found thirst.mixin.json:toughasnails.MixinServerConfig
-[28Jul2025 14:36:36.166] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHandler (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHandler)
-[28Jul2025 14:36:36.166] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHandler was not found thirst.mixin.json:toughasnails.MixinThirstHandler
-[28Jul2025 14:36:36.169] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHelperImpl (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHelperImpl)
-[28Jul2025 14:36:36.170] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHelperImpl was not found thirst.mixin.json:toughasnails.MixinThirstHelperImpl
-[28Jul2025 14:36:36.173] [main/WARN] [mixin/]: Error loading class: vazkii/botania/forge/xplat/ForgeXplatImpl (java.lang.ClassNotFoundException: vazkii.botania.forge.xplat.ForgeXplatImpl)
-[28Jul2025 14:36:36.174] [main/WARN] [mixin/]: @Mixin target vazkii.botania.forge.xplat.ForgeXplatImpl was not found thirst.mixin.json:botania.MixinForgeXplatImpl
-[28Jul2025 14:36:36.192] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/client/gui/KettleScreen (java.lang.ClassNotFoundException: umpaz.farmersrespite.client.gui.KettleScreen)
-[28Jul2025 14:36:36.192] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.client.gui.KettleScreen was not found thirst.mixin.json:farmersrespite.MixinKettleScreen
-[28Jul2025 14:36:36.193] [main/WARN] [mixin/]: Error loading class: toughasnails/client/handler/TooltipHandler (java.lang.ClassNotFoundException: toughasnails.client.handler.TooltipHandler)
-[28Jul2025 14:36:36.194] [main/WARN] [mixin/]: @Mixin target toughasnails.client.handler.TooltipHandler was not found thirst.mixin.json:toughasnails.MixinTooltipHandler
-[28Jul2025 14:36:36.560] [main/WARN] [mixin/]: Error loading class: com/mrbysco/spoiled/config/SpoiledConfigCache (java.lang.ClassNotFoundException: com.mrbysco.spoiled.config.SpoiledConfigCache)
-[28Jul2025 14:36:36.560] [main/WARN] [mixin/]: @Mixin target com.mrbysco.spoiled.config.SpoiledConfigCache was not found cold_sweat.mixin.json:compat.MixinSpoiledIcebox$ContainerModifier
-[28Jul2025 14:36:36.713] [main/WARN] [mixin/]: Error loading class: dev/emi/emi/screen/EmiScreenManager (java.lang.ClassNotFoundException: dev.emi.emi.screen.EmiScreenManager)
-[28Jul2025 14:36:36.716] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/impl/client/gui/ScreenOverlayImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.gui.ScreenOverlayImpl)
-[28Jul2025 14:36:37.110] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[28Jul2025 14:36:38.877] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (16.41 s after launch)
-[28Jul2025 14:36:38.990] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[28Jul2025 14:36:38.990] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[28Jul2025 14:36:39.155] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
-[28Jul2025 14:36:39.156] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
-[28Jul2025 14:36:40.407] [pool-4-thread-1/WARN] [mixin/]: Method overwrite conflict for m_6104_ in embeddium.mixins.json:features.options.render_layers.LeavesBlockMixin, previously written by me.srrapero720.chloride.mixins.impl.leaves_culling.LeavesBlockMixin. Skipping method.
-[28Jul2025 14:36:40.912] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2032 milliseconds
-[28Jul2025 14:36:46.106] [main/WARN] [net.minecraft.client.main.Main/]: Unrecognized user type: offline
-[28Jul2025 14:36:46.680] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Леис/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23204!/assets/.mcassetsroot' uses unexpected schema
-[28Jul2025 14:36:46.681] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Леис/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23204!/data/.mcassetsroot' uses unexpected schema
-[28Jul2025 14:36:46.708] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[28Jul2025 14:36:46.719] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: AnalDestroyer
-[28Jul2025 14:36:46.835] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
-[28Jul2025 14:36:46.955] [Render thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: farsight.json
-[28Jul2025 14:36:46.987] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[28Jul2025 14:36:47.091] [Render thread/WARN] [Embeddium-NvidiaWorkarounds/]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
-[28Jul2025 14:36:47.126] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Vendor: NVIDIA Corporation
-[28Jul2025 14:36:47.126] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
-[28Jul2025 14:36:47.126] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Version: 4.6.0 NVIDIA 577.00
-[28Jul2025 14:36:47.128] [Render thread/WARN] [Embeddium-PostlaunchChecks/]: Enabling secondary workaround for NVIDIA threaded optimizations
-[28Jul2025 14:36:47.531] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Main.initialize()
-[28Jul2025 14:36:47.543] [modloading-worker-0/INFO] [Entity Texture Features/]: Loading Entity Texture Features, ,serutaeF erutxeT ytitnE gnidoaL
-[28Jul2025 14:36:47.548] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[28Jul2025 14:36:47.553] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Initialized.
-[28Jul2025 14:36:47.557] [modloading-worker-0/INFO] [STDOUT/]: [dev.tr7zw.trender.gui.impl.client.LibGuiClient:onInitializeClient:38]: [LibGui] Initializing Client...
-[28Jul2025 14:36:47.614] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
-[28Jul2025 14:36:47.615] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
-[28Jul2025 14:36:47.651] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
-[28Jul2025 14:36:47.698] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[28Jul2025 14:36:47.779] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.4, for MC 1.20.1 with MCP 20230612.114412
-[28Jul2025 14:36:47.779] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.4 Initialized
-[28Jul2025 14:36:47.826] [modloading-worker-0/INFO] [chloride/Main]: Chloride is here, lets make your experience taste-able
-[28Jul2025 14:36:48.036] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[28Jul2025 14:36:48.043] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 6.174 ms
-[28Jul2025 14:36:48.260] [modloading-worker-0/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_109501_ in embeddium.mixins.json:core.render.world.WorldRendererMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[28Jul2025 14:36:50.174] [Render thread/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on cold_sweat.mixin.json:MixinRegistration::handler$bci000$loadRegistryContents exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[28Jul2025 14:36:51.839] [Render thread/INFO] [ModernFix/]: Replacing search trees with 'JEI' provider
-[28Jul2025 14:36:51.954] [Render thread/INFO] [chloride/]: Registering CHLORIDE built-in packs
-[28Jul2025 14:36:52.409] [Render thread/ERROR] [Embeddium-MixinTaintDetector/]: Mod mixin into Embeddium internals detected. This instance is now tainted. The Embeddium team does not provide any guarantee of support for issues encountered while such mods are installed.
-[28Jul2025 14:36:52.409] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [entity_texture_features] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.vertex.buffer.SodiumBufferBuilder, which may cause instability.
-[28Jul2025 14:36:52.624] [Render thread/INFO] [Spartan Shields/]: Registering Model Layers!
-[28Jul2025 14:36:52.627] [Render thread/INFO] [Spartan Shields/]: Model Layer registration complete!
-[28Jul2025 14:36:52.627] [Render thread/INFO] [Spartan Weaponry/]: Registering Model Layers!
-[28Jul2025 14:36:52.636] [Render thread/INFO] [Spartan Weaponry/]: Model Layer registration complete!
-[28Jul2025 14:36:52.644] [Render thread/INFO] [Spartan Weaponry/]: Registering Entity Renderers!
-[28Jul2025 14:36:52.778] [Finalizer/WARN] [ModernFix/]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
-[28Jul2025 14:36:53.208] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: mod_resources, vanilla, file/golden-days-base-1.21.x-1.12.3.zip
-[28Jul2025 14:36:53.292] [modloading-worker-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[28Jul2025 14:36:53.413] [Worker-ResourceReload-3/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[28Jul2025 14:36:53.432] [Worker-ResourceReload-5/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
-[28Jul2025 14:36:53.437] [Worker-ResourceReload-5/INFO] [com.farsight.FarsightMod/]: farsight_view mod initialized
-[28Jul2025 14:36:53.512] [Worker-ResourceReload-1/INFO] [harmonised.pmmo.util.MsLoggy/]: Messages Registered
-[28Jul2025 14:36:53.549] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[28Jul2025 14:36:53.707] [Worker-ResourceReload-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[28Jul2025 14:36:53.940] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/minecraft.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.940] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/clark.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.941] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/sweden.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.941] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/subwoofer_lullaby.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.941] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/living_mice.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.941] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/haggstrom.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.941] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/danny.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.941] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/key.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.942] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/oxygene.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.942] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/dry_hands.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.942] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/wet_hands.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.942] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/mice_on_venus.ogg does not exist, cannot add it to event minecraft:music.game
-[28Jul2025 14:36:53.943] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/menu/mutation.ogg does not exist, cannot add it to event minecraft:music.menu
-[28Jul2025 14:36:53.943] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/menu/moog_city_2.ogg does not exist, cannot add it to event minecraft:music.menu
-[28Jul2025 14:36:53.943] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/menu/beginning_2.ogg does not exist, cannot add it to event minecraft:music.menu
-[28Jul2025 14:36:53.943] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/menu/floating_trees.ogg does not exist, cannot add it to event minecraft:music.menu
-[28Jul2025 14:36:53.943] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/nether/concrete_halls.ogg does not exist, cannot add it to event minecraft:music.nether
-[28Jul2025 14:36:53.943] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/nether/dead_voxel.ogg does not exist, cannot add it to event minecraft:music.nether
-[28Jul2025 14:36:53.943] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/nether/warmth.ogg does not exist, cannot add it to event minecraft:music.nether
-[28Jul2025 14:36:53.944] [Worker-ResourceReload-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/nether/ballad_of_the_cats.ogg does not exist, cannot add it to event minecraft:music.nether
-[28Jul2025 14:36:53.966] [Worker-ResourceReload-5/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/block/Thumbs.db, ignoring
-[28Jul2025 14:36:54.057] [Worker-ResourceReload-5/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/Thumbs.db, ignoring
-[28Jul2025 14:36:54.685] [Worker-ResourceReload-6/INFO] [Spartan Shields/]: Setting up Client for Spartan Shields!
-[28Jul2025 14:36:54.686] [Worker-ResourceReload-2/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minecraft:entity/fishing_hook with size 8x8 limits mip level from 4 to 3
-[28Jul2025 14:36:54.687] [Worker-ResourceReload-6/INFO] [Sound Physics - General/]: Reloading reverb parameters
-[28Jul2025 14:36:54.904] [Worker-ResourceReload-6/INFO] [Sound Physics - General/]: Unknown sound in allowed sound config: spartanweaponry:throwing_weapon_hit_ground
-[28Jul2025 14:36:54.946] [Worker-ResourceReload-6/INFO] [com.hexagram2021.mod_whitelist.common.utils.MWLogger/]: Mod Whitelist v1.1.0 from the client! Modlist: ["appleskin", "canary", "chloride", "chunky", "cold_sweat", "controlling", "cupboard", "embeddium", "entity_texture_features", "entityculling", "farsight_view", "ferritecore", "forge", "jei", "minecraft", "mixinextras", "mod_whitelist", "modernfix", "mousetweaks", "mr_lithosphere", "notenoughanimations", "pmmo", "rubidium", "searchables", "sound_physics_remastered", "spartanshields", "spartanweaponry", "thirst", "transition", "trender", ]
-[28Jul2025 14:36:54.958] [Worker-ResourceReload-6/INFO] [Spartan Weaponry/]: Setting up Client for Spartan Weaponry!
-[28Jul2025 14:36:55.100] [Worker-ResourceReload-1/INFO] [chloride/]: LOADED CHLORIDE
-[28Jul2025 14:36:55.532] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.4.15 Target: null
-[28Jul2025 14:36:55.542] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
-[28Jul2025 14:36:56.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
-[28Jul2025 14:36:56.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
-[28Jul2025 14:36:56.332] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.3 Target: 1.0.3
-[28Jul2025 14:36:56.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
-[28Jul2025 14:36:57.790] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[28Jul2025 14:36:57.791] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[28Jul2025 14:36:57.853] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Динамики (Razer BlackShark V2 X USB)
-[28Jul2025 14:36:57.853] [Render thread/INFO] [Sound Physics - General/]: Initializing Sound Physics
-[28Jul2025 14:36:57.853] [Render thread/INFO] [Sound Physics - General/]: EFX Extension recognized
-[28Jul2025 14:36:57.854] [Render thread/INFO] [Sound Physics - General/]: Max auxiliary sends: 4
-[28Jul2025 14:36:57.862] [Render thread/INFO] [Sound Physics - General/]: Aux slot 1 created
-[28Jul2025 14:36:57.862] [Render thread/INFO] [Sound Physics - General/]: Aux slot 2 created
-[28Jul2025 14:36:57.862] [Render thread/INFO] [Sound Physics - General/]: Aux slot 3 created
-[28Jul2025 14:36:57.863] [Render thread/INFO] [Sound Physics - General/]: Aux slot 4 created
-[28Jul2025 14:36:57.869] [Render thread/INFO] [Sound Physics - General/]: EFX ready
-[28Jul2025 14:36:57.871] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[28Jul2025 14:36:57.933] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
-[28Jul2025 14:36:57.933] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lithosphere] Starting version check at https://api.modrinth.com/updates/iv9jp2k9/forge_updates.json
-[28Jul2025 14:36:58.038] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[28Jul2025 14:36:58.089] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[28Jul2025 14:36:58.090] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[28Jul2025 14:36:58.091] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[28Jul2025 14:36:58.107] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[28Jul2025 14:36:58.115] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[28Jul2025 14:36:58.116] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[28Jul2025 14:36:58.117] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[28Jul2025 14:36:58.118] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[28Jul2025 14:36:58.326] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[28Jul2025 14:36:58.411] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
-[28Jul2025 14:36:58.414] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[28Jul2025 14:36:58.415] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[28Jul2025 14:36:58.418] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[28Jul2025 14:36:58.427] [Render thread/INFO] [Entity Texture Features/]: [ETF]: reloading ETF data.
-[28Jul2025 14:36:58.446] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}.
-[28Jul2025 14:36:58.456] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}.
-[28Jul2025 14:36:58.943] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lithosphere] Found status: OUTDATED Current: 1.6 Target: 1.6+mod
-[28Jul2025 14:36:58.943] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[28Jul2025 14:37:00.158] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.4 Target: null
-[28Jul2025 14:37:00.553] [Render thread/WARN] [ModernFix/]: Game took 38.088 seconds to start
-[28Jul2025 14:37:00.620] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[28Jul2025 14:59:31.054] [CullThread/INFO] [STDOUT/]: [dev.tr7zw.entityculling.CullTask:run:90]: Shutting down culling task!
-[28Jul2025 14:59:31.067] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[28Jul2025 14:59:31.097] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}.
+[29Jul2025 16:17:32.441] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, RealCoper, --version, 1.20.1, --gameDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/instances/MineCivModpack/minecraft, --assetsDir, C:/Users/Леис/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, d08f857d92fa385386e7d0976eecb3d9, --accessToken, ❄❄❄❄❄❄❄❄, --userType, offline, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
+[29Jul2025 16:17:32.448] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.8 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[29Jul2025 16:17:33.007] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[29Jul2025 16:17:33.139] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[29Jul2025 16:17:34.072] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[29Jul2025 16:17:34.265] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Леис/AppData/Roaming/PrismLauncher/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23150!/ Service=ModLauncher Env=CLIENT
+[29Jul2025 16:17:34.957] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 577.00, NVIDIA Corporation
+[29Jul2025 16:17:35.318] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.4\fmlcore-1.20.1-47.4.4.jar is missing mods.toml file
+[29Jul2025 16:17:35.326] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.4\javafmllanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[29Jul2025 16:17:35.338] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.4\lowcodelanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[29Jul2025 16:17:35.345] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Леис\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.4\mclanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[29Jul2025 16:17:35.720] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[29Jul2025 16:17:37.858] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Jul2025 16:17:38.079] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[29Jul2025 16:17:38.081] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\Леис\AppData\Roaming\PrismLauncher\instances\MineCivModpack\minecraft, --assetsDir, C:\Users\Леис\AppData\Roaming\PrismLauncher\assets, --uuid, d08f857d92fa385386e7d0976eecb3d9, --username, RealCoper, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --userType, offline, --versionType, release, --width, 854, --height, 480]
+[29Jul2025 16:17:38.237] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.3+mc1.20.1: 96 options available, 0 override(s) found
+[29Jul2025 16:17:38.238] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[29Jul2025 16:17:38.264] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[29Jul2025 16:17:38.311] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[29Jul2025 16:17:38.591] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 80 options available, 3 override(s) found
+[29Jul2025 16:17:38.595] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Searching for graphics cards...
+[29Jul2025 16:17:39.379] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Intel(R) UHD Graphics 630, version=DriverVersion=26.20.100.6911]
+[29Jul2025 16:17:39.379] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce GTX 1650, version=DriverVersion=32.0.15.7700]
+[29Jul2025 16:17:39.387] [main/WARN] [Embeddium-Workarounds/]: Embeddium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[29Jul2025 16:17:39.388] [main/WARN] [Embeddium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[29Jul2025 16:17:39.651] [main/WARN] [mixin/]: Error loading class: net/raphimc/immediatelyfast/feature/core/BatchableBufferSource (java.lang.ClassNotFoundException: net.raphimc.immediatelyfast.feature.core.BatchableBufferSource)
+[29Jul2025 16:17:39.656] [main/WARN] [mixin/]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev.tr7zw.skinlayers.render.CustomizableModelPart)
+[29Jul2025 16:17:41.594] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[29Jul2025 16:17:41.595] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:accessors.brewinandchewin.KegBlockEntityAccessor
+[29Jul2025 16:17:41.596] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[29Jul2025 16:17:41.596] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:brewinandchewin.MixinKegBlockEntity
+[29Jul2025 16:17:41.598] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/crafting/KegFermentingRecipe (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.crafting.KegFermentingRecipe)
+[29Jul2025 16:17:41.598] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.crafting.KegFermentingRecipe was not found thirst.mixin.json:brewinandchewin.MixinKegFermentingRecipe
+[29Jul2025 16:17:41.600] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/processing/basin/BasinRecipe (java.lang.ClassNotFoundException: com.simibubi.create.content.processing.basin.BasinRecipe)
+[29Jul2025 16:17:41.601] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.processing.basin.BasinRecipe was not found thirst.mixin.json:create.MixinBasinRecipe
+[29Jul2025 16:17:41.603] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/spout/FillingBySpout (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.spout.FillingBySpout)
+[29Jul2025 16:17:41.603] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.spout.FillingBySpout was not found thirst.mixin.json:create.MixinFillingBySpout
+[29Jul2025 16:17:41.604] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/FluidDrainingBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour)
+[29Jul2025 16:17:41.604] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour was not found thirst.mixin.json:create.MixinFluidDrainingBehaviour
+[29Jul2025 16:17:41.605] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemEmptying (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemEmptying)
+[29Jul2025 16:17:41.606] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemEmptying was not found thirst.mixin.json:create.MixinGenericItemEmptying
+[29Jul2025 16:17:41.608] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemFilling (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemFilling)
+[29Jul2025 16:17:41.609] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemFilling was not found thirst.mixin.json:create.MixinGenericItemFilling
+[29Jul2025 16:17:41.613] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/api/equipment/goggles/IHaveGoggleInformation (java.lang.ClassNotFoundException: com.simibubi.create.api.equipment.goggles.IHaveGoggleInformation)
+[29Jul2025 16:17:41.613] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.api.equipment.goggles.IHaveGoggleInformation was not found thirst.mixin.json:create.MixinIHaveGoggleInformation
+[29Jul2025 16:17:41.614] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/OpenEndedPipe (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.OpenEndedPipe)
+[29Jul2025 16:17:41.615] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.OpenEndedPipe was not found thirst.mixin.json:create.MixinOpenEndedPipe
+[29Jul2025 16:17:41.619] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/entity/KettleBlockEntity (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.entity.KettleBlockEntity)
+[29Jul2025 16:17:41.620] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.entity.KettleBlockEntity was not found thirst.mixin.json:farmersrespite.MixinKettleBlockEntity
+[29Jul2025 16:17:41.622] [main/WARN] [mixin/]: Error loading class: snownee/jade/api/view/FluidView (java.lang.ClassNotFoundException: snownee.jade.api.view.FluidView)
+[29Jul2025 16:17:41.622] [main/WARN] [mixin/]: @Mixin target snownee.jade.api.view.FluidView was not found thirst.mixin.json:jade.MixinFluidView
+[29Jul2025 16:17:41.623] [main/WARN] [mixin/]: Error loading class: toughasnails/item/EmptyCanteenItem (java.lang.ClassNotFoundException: toughasnails.item.EmptyCanteenItem)
+[29Jul2025 16:17:41.624] [main/WARN] [mixin/]: @Mixin target toughasnails.item.EmptyCanteenItem was not found thirst.mixin.json:toughasnails.MixinEmptyCanteenItem
+[29Jul2025 16:17:41.626] [main/WARN] [mixin/]: Error loading class: toughasnails/config/ThirstConfig (java.lang.ClassNotFoundException: toughasnails.config.ThirstConfig)
+[29Jul2025 16:17:41.626] [main/WARN] [mixin/]: @Mixin target toughasnails.config.ThirstConfig was not found thirst.mixin.json:toughasnails.MixinServerConfig
+[29Jul2025 16:17:41.628] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHandler (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHandler)
+[29Jul2025 16:17:41.629] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHandler was not found thirst.mixin.json:toughasnails.MixinThirstHandler
+[29Jul2025 16:17:41.632] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHelperImpl (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHelperImpl)
+[29Jul2025 16:17:41.633] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHelperImpl was not found thirst.mixin.json:toughasnails.MixinThirstHelperImpl
+[29Jul2025 16:17:41.638] [main/WARN] [mixin/]: Error loading class: vazkii/botania/forge/xplat/ForgeXplatImpl (java.lang.ClassNotFoundException: vazkii.botania.forge.xplat.ForgeXplatImpl)
+[29Jul2025 16:17:41.639] [main/WARN] [mixin/]: @Mixin target vazkii.botania.forge.xplat.ForgeXplatImpl was not found thirst.mixin.json:botania.MixinForgeXplatImpl
+[29Jul2025 16:17:41.658] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/client/gui/KettleScreen (java.lang.ClassNotFoundException: umpaz.farmersrespite.client.gui.KettleScreen)
+[29Jul2025 16:17:41.659] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.client.gui.KettleScreen was not found thirst.mixin.json:farmersrespite.MixinKettleScreen
+[29Jul2025 16:17:41.661] [main/WARN] [mixin/]: Error loading class: toughasnails/client/handler/TooltipHandler (java.lang.ClassNotFoundException: toughasnails.client.handler.TooltipHandler)
+[29Jul2025 16:17:41.662] [main/WARN] [mixin/]: @Mixin target toughasnails.client.handler.TooltipHandler was not found thirst.mixin.json:toughasnails.MixinTooltipHandler
+[29Jul2025 16:17:41.941] [main/WARN] [mixin/]: Error loading class: com/mrbysco/spoiled/config/SpoiledConfigCache (java.lang.ClassNotFoundException: com.mrbysco.spoiled.config.SpoiledConfigCache)
+[29Jul2025 16:17:41.941] [main/WARN] [mixin/]: @Mixin target com.mrbysco.spoiled.config.SpoiledConfigCache was not found cold_sweat.mixin.json:compat.MixinSpoiledIcebox$ContainerModifier
+[29Jul2025 16:17:42.225] [main/INFO] [VivecraftMixin/]: Vivecraft: applying 'iris' fixes
+[29Jul2025 16:17:42.271] [main/INFO] [VivecraftMixin/]: Vivecraft: skipping mixin 'org.vivecraft.mod_compat_vr.iris.mixin.irisshaders.IrisChunkProgramOverridesMixin'
+[29Jul2025 16:17:42.279] [main/INFO] [VivecraftMixin/]: Vivecraft: skipping mixin 'org.vivecraft.mod_compat_vr.iris.mixin.irisshaders.IrisChunkProgramOverridesMixinSodium_0_6'
+[29Jul2025 16:17:42.322] [main/INFO] [VivecraftMixin/]: Vivecraft: applying 'optifine' fixes
+[29Jul2025 16:17:42.339] [main/INFO] [VivecraftMixin/]: Vivecraft: applying 'physicsmod' fixes
+[29Jul2025 16:17:42.349] [main/INFO] [VivecraftMixin/]: Vivecraft: applying 'sodium' fixes
+[29Jul2025 16:17:42.430] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[29Jul2025 16:17:42.431] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[29Jul2025 16:17:42.433] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.LightDataAccess)
+[29Jul2025 16:17:42.435] [main/WARN] [mixin/]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/aocalc/AoCalculator (java.lang.ClassNotFoundException: net.fabricmc.fabric.impl.client.indigo.renderer.aocalc.AoCalculator)
+[29Jul2025 16:17:42.475] [main/WARN] [mixin/]: Error loading class: dev/emi/emi/screen/EmiScreenManager (java.lang.ClassNotFoundException: dev.emi.emi.screen.EmiScreenManager)
+[29Jul2025 16:17:42.478] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/impl/client/gui/ScreenOverlayImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.gui.ScreenOverlayImpl)
+[29Jul2025 16:17:42.524] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/entity/RenderFlame (java.lang.ClassNotFoundException: mekanism.client.render.entity.RenderFlame)
+[29Jul2025 16:17:42.525] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/armor/MekaSuitArmor (java.lang.ClassNotFoundException: mekanism.client.render.armor.MekaSuitArmor)
+[29Jul2025 16:17:42.869] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[29Jul2025 16:17:42.871] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[29Jul2025 16:17:42.874] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[29Jul2025 16:17:42.875] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[29Jul2025 16:17:42.877] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.LightDataAccess)
+[29Jul2025 16:17:42.880] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.LightDataAccess)
+[29Jul2025 16:17:42.907] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[29Jul2025 16:17:42.908] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[29Jul2025 16:17:42.909] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[29Jul2025 16:17:42.914] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[29Jul2025 16:17:42.914] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.FontSetMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[29Jul2025 16:17:42.915] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[29Jul2025 16:17:42.916] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.remove_streams.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[29Jul2025 16:17:42.918] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.remove_streams.HierarchicalModelMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[29Jul2025 16:17:42.919] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[29Jul2025 16:17:42.920] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[29Jul2025 16:17:42.921] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[29Jul2025 16:17:43.151] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[29Jul2025 16:17:45.624] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (18.75 s after launch)
+[29Jul2025 16:17:45.765] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[29Jul2025 16:17:45.766] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[29Jul2025 16:17:45.937] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[29Jul2025 16:17:45.938] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[29Jul2025 16:17:47.148] [pool-4-thread-1/WARN] [mixin/]: Method overwrite conflict for m_6104_ in embeddium.mixins.json:features.options.render_layers.LeavesBlockMixin, previously written by me.srrapero720.chloride.mixins.impl.leaves_culling.LeavesBlockMixin. Skipping method.
+[29Jul2025 16:17:47.645] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2017 milliseconds
+[29Jul2025 16:17:53.821] [main/WARN] [net.minecraft.client.main.Main/]: Unrecognized user type: offline
+[29Jul2025 16:17:54.314] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Леис/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23214!/assets/.mcassetsroot' uses unexpected schema
+[29Jul2025 16:17:54.314] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Леис/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23214!/data/.mcassetsroot' uses unexpected schema
+[29Jul2025 16:17:54.343] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Jul2025 16:17:54.353] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: RealCoper
+[29Jul2025 16:17:54.472] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
+[29Jul2025 16:17:54.708] [Render thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: farsight.json
+[29Jul2025 16:17:54.747] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[29Jul2025 16:17:54.845] [Render thread/WARN] [Embeddium-NvidiaWorkarounds/]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[29Jul2025 16:17:54.852] [Render thread/ERROR] [Embeddium-MixinTaintDetector/]: Mod mixin into Embeddium internals detected. This instance is now tainted. The Embeddium team does not provide any guarantee of support for issues encountered while such mods are installed.
+[29Jul2025 16:17:54.853] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gui.SodiumGameOptions, which may cause instability.
+[29Jul2025 16:17:54.906] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Vendor: NVIDIA Corporation
+[29Jul2025 16:17:54.906] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
+[29Jul2025 16:17:54.906] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Version: 4.6.0 NVIDIA 577.00
+[29Jul2025 16:17:54.907] [Render thread/WARN] [Embeddium-PostlaunchChecks/]: Enabling secondary workaround for NVIDIA threaded optimizations
+[29Jul2025 16:17:55.161] [Render thread/INFO] [Oculus/]: Debug functionality is disabled.
+[29Jul2025 16:17:55.165] [Render thread/INFO] [Oculus/]: OpenGL 4.5 detected, enabling DSA.
+[29Jul2025 16:17:55.180] [Render thread/INFO] [Oculus/]: Shaders are disabled because enableShaders is set to false in iris.properties
+[29Jul2025 16:17:55.180] [Render thread/INFO] [Oculus/]: Shaders are disabled
+[29Jul2025 16:17:55.276] [VivecraftUpdateThread/INFO] [Vivecraft/]: Vivecraft: Checking for Updates
+[29Jul2025 16:17:55.472] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Main.initialize()
+[29Jul2025 16:17:55.484] [modloading-worker-0/INFO] [STDOUT/]: [dev.tr7zw.trender.gui.impl.client.LibGuiClient:onInitializeClient:38]: [LibGui] Initializing Client...
+[29Jul2025 16:17:55.489] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Initialized.
+[29Jul2025 16:17:55.495] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[29Jul2025 16:17:55.498] [modloading-worker-0/INFO] [Entity Texture Features/]: Loading Entity Texture Features, did you know this mod was made because I missed the glowing drowned textures in the Fresh animations addons.
+[29Jul2025 16:17:55.555] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[29Jul2025 16:17:55.556] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
+[29Jul2025 16:17:55.569] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
+[29Jul2025 16:17:55.638] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[29Jul2025 16:17:55.721] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.4, for MC 1.20.1 with MCP 20230612.114412
+[29Jul2025 16:17:55.721] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.4 Initialized
+[29Jul2025 16:17:55.746] [modloading-worker-0/INFO] [chloride/Main]: Chloride is here, lets make your experience taste-able
+[29Jul2025 16:17:55.789] [modloading-worker-0/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [sodiumoptionsapi, oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI, which may cause instability.
+[29Jul2025 16:17:56.008] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[29Jul2025 16:17:56.071] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 61.20 ms
+[29Jul2025 16:17:56.204] [modloading-worker-0/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_109501_ in embeddium.mixins.json:core.render.world.WorldRendererMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[29Jul2025 16:17:58.445] [Render thread/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on cold_sweat.mixin.json:MixinRegistration::handler$bcj000$loadRegistryContents exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[29Jul2025 16:18:00.005] [Render thread/INFO] [ModernFix/]: Replacing search trees with 'JEI' provider
+[29Jul2025 16:18:00.125] [Render thread/INFO] [chloride/]: Registering CHLORIDE built-in packs
+[29Jul2025 16:18:00.752] [Render thread/INFO] [Oculus/]: Hardware information:
+[29Jul2025 16:18:00.753] [Render thread/INFO] [Oculus/]: CPU: 8x Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+[29Jul2025 16:18:00.753] [Render thread/INFO] [Oculus/]: GPU: NVIDIA GeForce GTX 1650/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 577.00)
+[29Jul2025 16:18:00.753] [Render thread/INFO] [Oculus/]: OS: Windows 10 (10.0)
+[29Jul2025 16:18:00.803] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.vertex.VertexFormatDescriptionImpl, which may cause instability.
+[29Jul2025 16:18:00.819] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [entity_texture_features, oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.vertex.buffer.SodiumBufferBuilder, which may cause instability.
+[29Jul2025 16:18:00.886] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [vivecraft, oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer, which may cause instability.
+[29Jul2025 16:18:01.145] [Render thread/INFO] [Spartan Shields/]: Registering Model Layers!
+[29Jul2025 16:18:01.148] [Render thread/INFO] [Spartan Shields/]: Model Layer registration complete!
+[29Jul2025 16:18:01.148] [Render thread/INFO] [Spartan Weaponry/]: Registering Model Layers!
+[29Jul2025 16:18:01.160] [Render thread/INFO] [Spartan Weaponry/]: Model Layer registration complete!
+[29Jul2025 16:18:01.168] [Render thread/INFO] [Spartan Weaponry/]: Registering Entity Renderers!
+[29Jul2025 16:18:01.694] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: mod_resources, vanilla, chloride_solid_chests, chloride_solid_beds, programmer_art
+[29Jul2025 16:18:01.825] [Finalizer/WARN] [ModernFix/]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[29Jul2025 16:18:01.930] [modloading-worker-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[29Jul2025 16:18:02.060] [Worker-ResourceReload-5/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[29Jul2025 16:18:02.072] [Worker-ResourceReload-5/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[29Jul2025 16:18:02.102] [Worker-ResourceReload-6/INFO] [com.farsight.FarsightMod/]: farsight_view mod initialized
+[29Jul2025 16:18:02.325] [Worker-ResourceReload-5/INFO] [harmonised.pmmo.util.MsLoggy/]: Messages Registered
+[29Jul2025 16:18:02.348] [Worker-ResourceReload-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[29Jul2025 16:18:02.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[29Jul2025 16:18:03.459] [Worker-ResourceReload-2/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minecraft:entity/fishing_hook with size 8x8 limits mip level from 4 to 3
+[29Jul2025 16:18:03.947] [Worker-ResourceReload-5/INFO] [Spartan Shields/]: Setting up Client for Spartan Shields!
+[29Jul2025 16:18:04.041] [Worker-ResourceReload-5/INFO] [Sound Physics - General/]: Reloading reverb parameters
+[29Jul2025 16:18:04.114] [Worker-ResourceReload-6/INFO] [com.hexagram2021.mod_whitelist.common.utils.MWLogger/]: Mod Whitelist v1.1.0 from the client! Modlist: ["appleskin", "canary", "chloride", "chunky", "cold_sweat", "controlling", "cupboard", "embeddium", "entity_texture_features", "entityculling", "fabric_api_base", "farsight_view", "ferritecore", "forge", "jei", "minecraft", "mixinextras", "mod_whitelist", "modernfix", "mousetweaks", "mr_lithosphere", "notenoughanimations", "oculus", "pmmo", "rubidium", "searchables", "simplelogin", "sodiumdynamiclights", "sodiumoptionsapi", "sound_physics_remastered", "spartanshields", "spartanweaponry", "thirst", "transition", "trender", "vivecraft", ]
+[29Jul2025 16:18:04.119] [Worker-ResourceReload-6/INFO] [Spartan Weaponry/]: Setting up Client for Spartan Weaponry!
+[29Jul2025 16:18:04.151] [Worker-ResourceReload-6/INFO] [sodiumdynamiclights/]: [LambDynLights] Initializing SodiumDynamicLights...
+[29Jul2025 16:18:04.162] [Worker-ResourceReload-6/INFO] [chloride/]: LOADED CHLORIDE
+[29Jul2025 16:18:04.378] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.4.15 Target: null
+[29Jul2025 16:18:04.378] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
+[29Jul2025 16:18:04.460] [Worker-ResourceReload-5/INFO] [Sound Physics - General/]: Unknown sound in allowed sound config: spartanweaponry:throwing_weapon_hit_ground
+[29Jul2025 16:18:04.656] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
+[29Jul2025 16:18:04.656] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[29Jul2025 16:18:04.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.3 Target: 1.0.3
+[29Jul2025 16:18:04.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[29Jul2025 16:18:05.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[29Jul2025 16:18:05.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lithosphere] Starting version check at https://api.modrinth.com/updates/iv9jp2k9/forge_updates.json
+[29Jul2025 16:18:05.700] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lithosphere] Found status: OUTDATED Current: 1.6 Target: 1.6+mod
+[29Jul2025 16:18:05.700] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Jul2025 16:18:06.682] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.4 Target: null
+[29Jul2025 16:18:06.682] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vivecraft] Starting version check at https://raw.githubusercontent.com/Vivecraft/VivecraftMod/forge-versions/forge_updates.json
+[29Jul2025 16:18:06.746] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vivecraft] Found status: UP_TO_DATE Current: 1.20.1-1.2.5 Target: null
+[29Jul2025 16:18:07.152] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[29Jul2025 16:18:07.152] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[29Jul2025 16:18:07.223] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Динамики (Razer BlackShark V2 X USB)
+[29Jul2025 16:18:07.223] [Render thread/INFO] [Sound Physics - General/]: Initializing Sound Physics
+[29Jul2025 16:18:07.223] [Render thread/INFO] [Sound Physics - General/]: EFX Extension recognized
+[29Jul2025 16:18:07.223] [Render thread/INFO] [Sound Physics - General/]: Max auxiliary sends: 4
+[29Jul2025 16:18:07.232] [Render thread/INFO] [Sound Physics - General/]: Aux slot 1 created
+[29Jul2025 16:18:07.232] [Render thread/INFO] [Sound Physics - General/]: Aux slot 2 created
+[29Jul2025 16:18:07.232] [Render thread/INFO] [Sound Physics - General/]: Aux slot 3 created
+[29Jul2025 16:18:07.232] [Render thread/INFO] [Sound Physics - General/]: Aux slot 4 created
+[29Jul2025 16:18:07.238] [Render thread/INFO] [Sound Physics - General/]: EFX ready
+[29Jul2025 16:18:07.240] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[29Jul2025 16:18:07.455] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[29Jul2025 16:18:07.492] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[29Jul2025 16:18:07.493] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[29Jul2025 16:18:07.494] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[29Jul2025 16:18:07.506] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[29Jul2025 16:18:07.512] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[29Jul2025 16:18:07.512] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[29Jul2025 16:18:07.513] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[29Jul2025 16:18:07.513] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[29Jul2025 16:18:07.561] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [vivecraft] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.immediate.model.ModelCuboid, which may cause instability.
+[29Jul2025 16:18:07.732] [Render thread/INFO] [Vivecraft/]: Vivecraft: Optifine not detected
+[29Jul2025 16:18:07.755] [Render thread/WARN] [Vivecraft/]: Vivecraft: Copying layer: class com.momosoftworks.coldsweat.client.renderer.layer.ChameleonArmorLayer with Object.copy, this could cause issues
+[29Jul2025 16:18:07.755] [Render thread/WARN] [Vivecraft/]: Vivecraft: Copying layer: class com.momosoftworks.coldsweat.client.renderer.layer.ChameleonArmorLayer with Object.copy, this could cause issues
+[29Jul2025 16:18:07.755] [Render thread/WARN] [Vivecraft/]: Vivecraft: Copying layer: class com.momosoftworks.coldsweat.client.renderer.layer.ChameleonArmorLayer with Object.copy, this could cause issues
+[29Jul2025 16:18:07.755] [Render thread/WARN] [Vivecraft/]: Vivecraft: Copying layer: class com.momosoftworks.coldsweat.client.renderer.layer.ChameleonArmorLayer with Object.copy, this could cause issues
+[29Jul2025 16:18:07.755] [Render thread/WARN] [Vivecraft/]: Vivecraft: Copying layer: class com.momosoftworks.coldsweat.client.renderer.layer.ChameleonArmorLayer with Object.copy, this could cause issues
+[29Jul2025 16:18:07.755] [Render thread/WARN] [Vivecraft/]: Vivecraft: Copying layer: class com.momosoftworks.coldsweat.client.renderer.layer.ChameleonArmorLayer with Object.copy, this could cause issues
+[29Jul2025 16:18:07.809] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[29Jul2025 16:18:07.891] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[29Jul2025 16:18:07.895] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[29Jul2025 16:18:07.895] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[29Jul2025 16:18:07.897] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[29Jul2025 16:18:07.906] [Render thread/INFO] [Entity Texture Features/]: [ETF]: reloading ETF data.
+[29Jul2025 16:18:07.927] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}.
+[29Jul2025 16:18:07.932] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}.
+[29Jul2025 16:18:07.961] [Render thread/INFO] [Oculus/]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[29Jul2025 16:18:07.968] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.device.GLRenderDevice$ImmediateDrawCommandList, which may cause instability.
+[29Jul2025 16:18:08.578] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[29Jul2025 16:18:09.936] [Render thread/WARN] [ModernFix/]: Game took 43.06 seconds to start
+[29Jul2025 16:18:28.344] [Netty Client IO #0/INFO] [net.minecraftforge.client.ForgeHooksClient/CLIENTHOOKS]: Server has additional mods that may be needed on the client: simplebackups@, servercore@1.5.2+1.20.1, antixray@1.4.6
+[29Jul2025 16:18:28.344] [Netty Client IO #0/INFO] [net.minecraftforge.client.ForgeHooksClient/CLIENTHOOKS]: Client has mods that are missing on server: [fabric_api_base, searchables, appleskin, sodiumoptionsapi, sodiumdynamiclights]
+[29Jul2025 16:18:44.887] [Netty Client IO #1/INFO] [net.minecraftforge.client.ForgeHooksClient/CLIENTHOOKS]: Server has additional mods that may be needed on the client: simplebackups@, servercore@1.5.2+1.20.1, antixray@1.4.6
+[29Jul2025 16:18:44.887] [Netty Client IO #1/INFO] [net.minecraftforge.client.ForgeHooksClient/CLIENTHOOKS]: Client has mods that are missing on server: [fabric_api_base, searchables, appleskin, sodiumoptionsapi, sodiumdynamiclights]
+[29Jul2025 16:18:45.995] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}.
+[29Jul2025 16:18:45.998] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to url-chorus.gl.joinmc.link, 25565
+[29Jul2025 16:18:48.471] [Netty Client IO #2/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[29Jul2025 16:18:49.070] [Render thread/INFO] [Oculus/]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[29Jul2025 16:18:49.071] [Render thread/INFO] [Oculus/]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[29Jul2025 16:18:49.080] [Render thread/INFO] [Oculus/]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[29Jul2025 16:18:49.155] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.RenderSectionManager, which may cause instability.
+[29Jul2025 16:18:49.176] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.compile.tasks.ChunkBuilderMeshingTask, which may cause instability.
+[29Jul2025 16:18:49.210] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.vertex.format.ChunkMeshFormats, which may cause instability.
+[29Jul2025 16:18:49.214] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.vertex.format.ChunkMeshAttribute, which may cause instability.
+[29Jul2025 16:18:49.223] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.attribute.GlVertexFormat$Builder, which may cause instability.
+[29Jul2025 16:18:49.230] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.attribute.GlVertexAttributeFormat, which may cause instability.
+[29Jul2025 16:18:49.235] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.DefaultChunkRenderer, which may cause instability.
+[29Jul2025 16:18:49.247] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.ShaderChunkRenderer, which may cause instability.
+[29Jul2025 16:18:49.297] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildBuffers, which may cause instability.
+[29Jul2025 16:18:49.305] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.vertex.builder.ChunkMeshBufferBuilder, which may cause instability.
+[29Jul2025 16:18:49.310] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.compile.buffers.BakedChunkModelBuilder, which may cause instability.
+[29Jul2025 16:18:49.331] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [sodiumdynamiclights] are modifying Embeddium class me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess, which may cause instability.
+[29Jul2025 16:18:49.332] [Render thread/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.LightDataAccess)
+[29Jul2025 16:18:49.335] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [sodiumdynamiclights] are modifying Embeddium class me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache, which may cause instability.
+[29Jul2025 16:18:49.336] [Render thread/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[29Jul2025 16:18:49.341] [Render thread/WARN] [mixin/]: Error loading class: net/fabricmc/fabric/api/blockview/v2/FabricBlockView (java.lang.ClassNotFoundException: net.fabricmc.fabric.api.blockview.v2.FabricBlockView)
+[29Jul2025 16:18:49.342] [Render thread/WARN] [mixin/]: Error loading class: net/fabricmc/fabric/api/rendering/data/v1/RenderAttachedBlockView (java.lang.ClassNotFoundException: net.fabricmc.fabric.api.rendering.data.v1.RenderAttachedBlockView)
+[29Jul2025 16:18:49.356] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.model.light.smooth.SmoothLightPipeline, which may cause instability.
+[29Jul2025 16:18:49.361] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus, sodiumdynamiclights] are modifying Embeddium class me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline, which may cause instability.
+[29Jul2025 16:18:49.363] [Render thread/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[29Jul2025 16:18:49.404] [Render thread/INFO] [ChunkBuilder/]: Started 2 worker threads
+[29Jul2025 16:18:49.587] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[29Jul2025 16:18:49.587] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[29Jul2025 16:18:49.668] [Render thread/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 7.3103ms
+[29Jul2025 16:18:49.671] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[29Jul2025 16:18:49.742] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[29Jul2025 16:18:49.742] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[29Jul2025 16:18:49.743] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[29Jul2025 16:18:49.753] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[29Jul2025 16:18:49.757] [Render thread/INFO] [Spartan Weaponry/]: JEI Plugin is Registering subtypes
+[29Jul2025 16:18:49.759] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 5.551 ms
+[29Jul2025 16:18:49.759] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[29Jul2025 16:18:49.762] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 2.562 ms
+[29Jul2025 16:18:49.765] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[29Jul2025 16:18:49.873] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[29Jul2025 16:18:49.933] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 166.6 milliseconds
+[29Jul2025 16:18:49.933] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 167.5 ms
+[29Jul2025 16:18:49.933] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[29Jul2025 16:18:49.934] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 530.5 μs
+[29Jul2025 16:18:49.934] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[29Jul2025 16:18:49.936] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 937.1 μs
+[29Jul2025 16:18:49.951] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[29Jul2025 16:18:49.968] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 16.05 milliseconds
+[29Jul2025 16:18:49.969] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 17.34 ms
+[29Jul2025 16:18:49.970] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[29Jul2025 16:18:49.975] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 4.576 ms
+[29Jul2025 16:18:49.976] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[29Jul2025 16:18:49.978] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 1.714 ms
+[29Jul2025 16:18:49.979] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[29Jul2025 16:18:49.995] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 16.23 ms
+[29Jul2025 16:18:49.996] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[29Jul2025 16:18:49.997] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 613.0 μs
+[29Jul2025 16:18:49.998] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[29Jul2025 16:18:50.834] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 835.1 milliseconds
+[29Jul2025 16:18:50.883] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: spartanweaponry:jei_plugin took 49.04 milliseconds
+[29Jul2025 16:18:50.884] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 885.5 ms
+[29Jul2025 16:18:50.891] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[29Jul2025 16:18:50.896] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 4.184 ms
+[29Jul2025 16:18:50.900] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[29Jul2025 16:18:50.903] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[29Jul2025 16:18:50.913] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 9.656 ms
+[29Jul2025 16:18:50.917] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[29Jul2025 16:18:50.918] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[29Jul2025 16:18:50.919] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[29Jul2025 16:18:51.005] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 85.28 ms
+[29Jul2025 16:18:51.005] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[29Jul2025 16:18:51.042] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 2559 ingredients
+[29Jul2025 16:18:56.018] [pool-22-thread-1/ERROR] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui is running and has taken 5.101 seconds so far
+[29Jul2025 16:18:56.634] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 2559 ingredients
+[29Jul2025 16:18:56.635] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 5.630 s
+[29Jul2025 16:18:56.735] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 5.818 seconds
+[29Jul2025 16:18:56.735] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 5.819 s
+[29Jul2025 16:18:56.736] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 5.836 s
+[29Jul2025 16:18:56.737] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[29Jul2025 16:18:56.738] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 915.2 μs
+[29Jul2025 16:18:56.738] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 6.995 s
+[29Jul2025 16:18:57.191] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Unknown custom packet identifier: simplebackups:netchannel
+[29Jul2025 16:18:57.204] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 399 advancements
+[29Jul2025 16:18:57.252] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Vivecraft server mod detected: Vivecraft-1.20.1-forge-1.2.5
+[29Jul2025 16:18:57.371] [Render thread/INFO] [STDOUT/]: [com.abdelaziz.canary.common.block.TrackedBlockStatePredicate:<clinit>:14]: Canary Cached BlockState Flags are disabled!
+[29Jul2025 16:18:57.490] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.shader.GlProgram, which may cause instability.
+[29Jul2025 16:18:57.500] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.shader.ShaderType, which may cause instability.
+[29Jul2025 16:18:57.561] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [entity_texture_features, vivecraft] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.immediate.model.EntityRenderer, which may cause instability.
+[29Jul2025 16:18:57.587] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.immediate.model.BakedModelEncoder, which may cause instability.
+[29Jul2025 16:18:58.279] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.region.RenderRegion$DeviceResources, which may cause instability.
+[29Jul2025 16:18:58.566] [Render thread/WARN] [ModernFix/]: Time from main menu to in-game was 12.566515 seconds
+[29Jul2025 16:18:58.566] [Render thread/WARN] [ModernFix/]: Total time to load game and open world was 55.62652 seconds
